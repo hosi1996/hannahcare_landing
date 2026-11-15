@@ -1,0 +1,6 @@
+.bullets li::before,.checks li::before{content:'✓'}
+.faq details[open] summary::after{content:'−'}
+.real-image{padding:0;background:#e8e0ca}
+.real-image::before,.real-image::after{display:none}
+.real-image img{object-fit:cover;transition:transform .5s ease}
+.card:hover .real-image img{transform:scale(1.025)}

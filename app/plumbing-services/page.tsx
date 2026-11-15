@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import {content} from '@/lib/content';import {ServicePage} from '@/components/service-page';const p:any=content.pages.plumbing;export const metadata:Metadata={title:p.seo.title,description:p.seo.description,alternates:{canonical:p.slug}};export default function Page(){return <ServicePage page={p}/>}

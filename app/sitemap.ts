@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';import {content} from '@/lib/content';export default function sitemap():MetadataRoute.Sitemap{return Object.values(content.pages).map((p:any)=>({url:`${content.site.domain}${p.slug}`,lastModified:new Date(),changeFrequency:'monthly',priority:p.slug==='/'?1:.8}))}
