@@ -24,38 +24,14 @@ ssh YOUR_USER@SERVER_IP
 
 Use an Ubuntu account with `sudo` access.
 
-## 2. Clone the private repository
+## 2. Clone the public repository
 
-The repository is private, so the server needs GitHub access. The recommended option is an SSH deploy key.
-
-Generate a key on the server:
-
-```bash
-ssh-keygen -t ed25519 -C "hannahcare-server" -f ~/.ssh/hannahcare_github
-cat ~/.ssh/hannahcare_github.pub
-```
-
-In GitHub, open the repository, then **Settings → Deploy keys → Add deploy key**. Paste the public key and leave write access disabled.
-
-Create an SSH host entry:
-
-```bash
-cat >> ~/.ssh/config <<'EOF'
-Host github-hannahcare
-  HostName github.com
-  User git
-  IdentityFile ~/.ssh/hannahcare_github
-  IdentitiesOnly yes
-EOF
-chmod 600 ~/.ssh/config
-```
-
-Clone directly into the final isolated path:
+No GitHub account, token, or deploy key is required. Clone directly into the final isolated path:
 
 ```bash
 sudo mkdir -p /srv/hannahcare
 sudo chown "$USER":"$USER" /srv/hannahcare
-git clone git@github-hannahcare:hosi1996/hannahcare_landing.git /srv/hannahcare/app
+git clone https://github.com/hosi1996/hannahcare_landing.git /srv/hannahcare/app
 ```
 
 ## 3. Run the installer
