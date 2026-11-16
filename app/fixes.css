@@ -4,3 +4,6 @@
 .real-image::before,.real-image::after{display:none}
 .real-image img{object-fit:cover;transition:transform .5s ease}
 .card:hover .real-image img{transform:scale(1.025)}
+.consent-banner{position:fixed;z-index:80;right:22px;bottom:22px;width:min(560px,calc(100% - 44px));display:flex;align-items:center;gap:24px;padding:20px;background:#fbf9f3;color:var(--ink);border:1px solid var(--o1);border-radius:16px;box-shadow:0 20px 60px rgba(43,42,20,.2)}
+.consent-banner strong{font-family:Georgia,serif;font-size:1.1rem}.consent-banner p{margin-top:4px;font-size:.78rem;line-height:1.45;color:#5c5945}.consent-actions{display:flex;gap:8px;flex:0 0 auto}.consent-actions .btn{min-height:42px;padding:8px 14px;font-size:.76rem}
+@media(max-width:680px){.consent-banner{right:13px;bottom:68px;width:calc(100% - 26px);display:block}.consent-actions{margin-top:14px}.consent-actions .btn{flex:1}}

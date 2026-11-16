@@ -23,7 +23,9 @@ Submitted leads are validated on client/server boundaries and stored in `data/le
 
 ## Tracking
 
-Replace tracking placeholders in `content/site.json` only after consent and conversion IDs are confirmed. Placeholder IDs are never loaded. Click/form events use the `dataLayer` event names from the brief. Add a consent-managed, locally reviewed GTM loader before paid traffic goes live.
+Replace tracking placeholders in `content/site.json` only after the advertising team confirms the IDs. The site accepts a Google Tag Manager container ID (`GTM-...`) or direct GA4/Google Ads IDs (`G-...` and `AW-...`). Placeholder IDs never load external scripts. Valid IDs activate the consent banner and load tracking only after acceptance.
+
+The data layer emits `call_click`, `whatsapp_click`, `form_start`, and `form_submit`, including `page`, `service`, and `location`. Stable CTA and form element IDs are also available for tag-manager triggers.
 
 ## Deployment
 

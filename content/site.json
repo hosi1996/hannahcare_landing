@@ -54,7 +54,13 @@
       "whatsapp": "[LABEL]",
       "form": "[LABEL]"
     },
-    "metaPixelId": ""
+    "metaPixelId": "",
+    "consent": {
+      "title": "Your privacy choices",
+      "text": "We use optional analytics to understand which services visitors need and to improve our advertising. You can accept or decline.",
+      "accept": "Accept analytics",
+      "decline": "Decline"
+    }
   },
 
   "cta": {
