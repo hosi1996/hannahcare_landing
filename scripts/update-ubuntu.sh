@@ -31,6 +31,9 @@ runuser -u "$DEPLOY_USER" -- bash -lc "cd '$APP_DIR' && npm run build"
 
 chown -R "$DEPLOY_USER:$APP_USER" "$APP_DIR"
 chmod -R g+rX "$APP_DIR"
+mkdir -p "$APP_DIR/.next/cache"
+chown -R "$APP_USER:$APP_USER" "$APP_DIR/.next/cache"
+chmod -R u+rwX "$APP_DIR/.next/cache"
 chown -R "$APP_USER:$APP_USER" "$DATA_DIR"
 
 log "Restarting the application"

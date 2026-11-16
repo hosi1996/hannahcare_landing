@@ -109,6 +109,9 @@ fi
 
 log "Installing Node.js dependencies and building the production application"
 runuser -u "$DEPLOY_USER" -- bash -lc "cd '$APP_DIR' && npm ci && npm run build"
+mkdir -p "$APP_DIR/.next/cache"
+chown -R "$APP_USER:$APP_USER" "$APP_DIR/.next/cache"
+chmod -R u+rwX "$APP_DIR/.next/cache"
 
 log "Installing the systemd service"
 cat > "$SERVICE_FILE" <<EOF
@@ -152,7 +155,9 @@ server {
     location / {
         proxy_pass http://127.0.0.1:$APP_PORT;
         proxy_http_version 1.1;
-        proxy_set_header Host \$host;
+        proxy_set_header Host \$http_host;
+        proxy_set_header X-Forwarded-Host \$http_host;
+        proxy_set_header X-Forwarded-Port \$server_port;
         proxy_set_header X-Real-IP \$remote_addr;
         proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto \$scheme;

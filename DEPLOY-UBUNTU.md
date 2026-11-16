@@ -69,6 +69,8 @@ sudo systemctl restart hannahcare
 
 The leads database remains at `/srv/hannahcare/data/leads.db` during updates.
 
+The installer also gives the restricted service user write access only to the persistent database directory and the Next.js runtime image cache. Application source files remain read-only to the service.
+
 ## Deploy an update
 
 After new code is pushed to GitHub:
