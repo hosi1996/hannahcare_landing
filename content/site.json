@@ -46,7 +46,7 @@
   },
 
   "tracking": {
-    "gtmId": "[GTM-XXXXXXX]",
+    "gtmId": "GTM-58NPZ26N",
     "ga4Id": "[G-XXXXXXXXXX]",
     "googleAdsId": "[AW-XXXXXXXXX]",
     "conversionLabels": {
