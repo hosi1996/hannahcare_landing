@@ -27,7 +27,8 @@ Replace tracking placeholders in `content/site.json` only after consent and conv
 
 ## Deployment
 
-- VPS/Node: install dependencies, set environment variables, run `npm run build`, then run `npm start` behind Nginx/Caddy with HTTPS and a persistent `data/` volume.
+- Ubuntu VPS: use the isolated one-command installer documented in [`DEPLOY-UBUNTU.md`](DEPLOY-UBUNTU.md). It installs the app under `/srv/hannahcare`, keeps SQLite data persistent, creates a systemd service, and configures Nginx without TLS.
+- Generic VPS/Node: install dependencies, set environment variables, run `npm run build`, then run `npm start` behind Nginx/Caddy with a persistent `data/` volume.
 - Vercel: import the repository and set environment variables. Vercel's ephemeral filesystem is not suitable for the SQLite adapter; use a managed Postgres adapter first.
 
 ## Pre-launch checklist
