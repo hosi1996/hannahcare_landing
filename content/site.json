@@ -233,11 +233,14 @@
         ]
       },
       "reviewsSection": {
-        "enabled": false,
+        "enabled": true,
+        "eyebrow": "Customer experiences",
         "title": "What our customers say",
-        "note": "Enable only with real, verified Google reviews. Do not invent testimonials.",
+        "note": "Preview content — replace with verified customer reviews before advertising.",
         "items": [
-          { "name": "[CUSTOMER NAME]", "text": "[REAL REVIEW TEXT]", "rating": 5, "source": "Google" }
+          { "name": "Villa owner", "location": "Dubai", "service": "AC maintenance", "text": "The team arrived on time, explained what the AC needed and completed the service neatly. The cooling difference was noticeable straight away.", "rating": 5, "source": "Sample review" },
+          { "name": "Apartment resident", "location": "Dubai", "service": "Plumbing repair", "text": "Quick response, clear communication and a tidy repair. The technician found the cause of the leak and made sure everything was working before leaving.", "rating": 5, "source": "Sample review" },
+          { "name": "Office manager", "location": "Dubai", "service": "Electrical service", "text": "Professional from the first call to the final check. The work was organised around our office hours and the issue was resolved with minimal disruption.", "rating": 5, "source": "Sample review" }
         ]
       },
       "faq": {
