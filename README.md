@@ -30,6 +30,21 @@ The data layer emits `call_click`, `whatsapp_click`, `form_start`, and `form_sub
 ## Deployment
 
 - Ubuntu VPS: use the isolated one-command installer documented in [`DEPLOY-UBUNTU.md`](DEPLOY-UBUNTU.md). It installs the app under `/srv/hannahcare`, keeps SQLite data persistent, creates a systemd service, and configures Nginx without TLS.
+
+### Enable HTTPS after DNS points to the server
+
+Make sure inbound TCP ports 80 and 443 are open in the hosting firewall/security
+group, then run:
+
+```bash
+cd /srv/hannahcare/app
+git pull origin main
+sudo bash scripts/setup-ssl.sh
+```
+
+The script installs Certbot, obtains a Let's Encrypt certificate, enables the
+HTTP-to-HTTPS redirect and tests automatic renewal. It includes `www` only when
+that hostname has a DNS record.
 - Generic VPS/Node: install dependencies, set environment variables, run `npm run build`, then run `npm start` behind Nginx/Caddy with a persistent `data/` volume.
 - Vercel: import the repository and set environment variables. Vercel's ephemeral filesystem is not suitable for the SQLite adapter; use a managed Postgres adapter first.
 
