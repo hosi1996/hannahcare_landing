@@ -23,7 +23,7 @@ Submitted leads are validated on client/server boundaries and stored in `data/le
 
 ## Tracking
 
-Replace tracking placeholders in `content/site.json` only after the advertising team confirms the IDs. The site accepts a Google Tag Manager container ID (`GTM-...`) or direct GA4/Google Ads IDs (`G-...` and `AW-...`). Placeholder IDs never load external scripts. Valid IDs activate the consent banner and load tracking only after acceptance.
+Replace tracking placeholders in `content/site.json` only after the advertising team confirms the IDs. The site accepts a Google Tag Manager container ID (`GTM-...`) or direct GA4/Google Ads IDs (`G-...` and `AW-...`). Placeholder IDs never load external scripts. Valid IDs load tracking immediately with Google Consent Mode set to granted.
 
 The data layer emits `call_click`, `whatsapp_click`, `form_start`, and `form_submit`, including `page`, `service`, and `location`. Stable CTA and form element IDs are also available for tag-manager triggers.
 

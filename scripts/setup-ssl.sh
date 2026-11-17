@@ -3,6 +3,8 @@ set -Eeuo pipefail
 
 DOMAIN="${DOMAIN:-hannahcare.ae}"
 NGINX_SITE="${NGINX_SITE:-/etc/nginx/sites-available/hannahcare}"
+APP_PORT="${APP_PORT:-3101}"
+PUBLIC_PORT="${PUBLIC_PORT:-8080}"
 
 log() { printf '\n\033[1;32m[Hannah Care SSL]\033[0m %s\n' "$*"; }
 fail() { printf '\n\033[1;31m[Hannah Care SSL]\033[0m %s\n' "$*" >&2; exit 1; }
@@ -39,9 +41,81 @@ else
   log "www.$DOMAIN has no DNS record, so the certificate will cover $DOMAIN only"
 fi
 
-log "Issuing the certificate and enabling the HTTP to HTTPS redirect"
-certbot --nginx --non-interactive --agree-tos --redirect \
+log "Issuing the certificate"
+certbot certonly --nginx --non-interactive --agree-tos \
   --email "$CERTBOT_EMAIL" "${domains[@]}"
+
+CERT_DIR="/etc/letsencrypt/live/$DOMAIN"
+[[ -f "$CERT_DIR/fullchain.pem" && -f "$CERT_DIR/privkey.pem" ]] || \
+  fail "Certificate files were not found in $CERT_DIR."
+
+log "Configuring HTTPS and the canonical non-www redirect"
+cat > "$NGINX_SITE" <<EOF
+server {
+    listen $PUBLIC_PORT default_server;
+    listen [::]:$PUBLIC_PORT default_server;
+    server_name _;
+
+    location / {
+        proxy_pass http://127.0.0.1:$APP_PORT;
+        proxy_http_version 1.1;
+        proxy_set_header Host \$http_host;
+        proxy_set_header X-Forwarded-Host \$http_host;
+        proxy_set_header X-Forwarded-Port \$server_port;
+        proxy_set_header X-Real-IP \$remote_addr;
+        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto \$scheme;
+        proxy_buffering off;
+        proxy_read_timeout 60s;
+    }
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name $DOMAIN www.$DOMAIN;
+    return 301 https://$DOMAIN\$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    server_name www.$DOMAIN;
+
+    ssl_certificate $CERT_DIR/fullchain.pem;
+    ssl_certificate_key $CERT_DIR/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    return 301 https://$DOMAIN\$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    server_name $DOMAIN;
+
+    ssl_certificate $CERT_DIR/fullchain.pem;
+    ssl_certificate_key $CERT_DIR/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    client_max_body_size 2m;
+
+    location / {
+        proxy_pass http://127.0.0.1:$APP_PORT;
+        proxy_http_version 1.1;
+        proxy_set_header Host \$http_host;
+        proxy_set_header X-Forwarded-Host \$http_host;
+        proxy_set_header X-Forwarded-Port 443;
+        proxy_set_header X-Real-IP \$remote_addr;
+        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_buffering off;
+        proxy_read_timeout 60s;
+    }
+}
+EOF
 
 if command -v ufw >/dev/null 2>&1 && ufw status | grep -q '^Status: active'; then
   ufw allow 'Nginx Full'
