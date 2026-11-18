@@ -1,0 +1,676 @@
+HANNAH CARE — COMPLETE WEBSITE COPY
+Plain-text content reference for the content team
+Website: https://hannahcare.ae
+Generated from: content/site.json
+Anything inside [SQUARE BRACKETS] still needs real business information.
+
+==============================================================================
+GLOBAL SITE CONTENT — SHOWN ACROSS THE WEBSITE
+==============================================================================
+
+--- Brand ---
+Brand name: Hannah Care
+Descriptor: Property Maintenance
+Tagline: Care for Every Corner
+Service area: [CONFIRM: city / emirate / areas covered]
+Trade licence: [CONFIRM: trade licence no. and issuing authority]
+Logo alt text: Hannah Care – Property Maintenance
+
+--- Header navigation ---
+Link 1: Home — https://hannahcare.ae/
+Link 2: AC — https://hannahcare.ae/ac-repair-maintenance
+Link 3: Plumbing — https://hannahcare.ae/plumbing-services
+Link 4: Electrical — https://hannahcare.ae/electrical-services
+
+--- Contact information ---
+Phone shown on site: [+971 XX XXX XXXX]
+Phone link value: [+971XXXXXXXXX]
+WhatsApp number: [971XXXXXXXXX]
+WhatsApp opening message: Hello Hannah Care, I would like to enquire about {service}.
+Email: [info@hannahcare.example]
+Opening hours: Available 24/7
+
+--- CTA labels ---
+Call button: Call Now
+WhatsApp button: WhatsApp Us
+Quote button: Get My Free Quote
+Form submit button: Send My Quote Request
+
+--- Common interface labels ---
+Service navigation heading: Find your service
+Service navigation text: Choose what you need and get there directly.
+Service card link: Explore service
+Featured service badge: Specialist service
+Final CTA eyebrow: Need a hand?
+Mobile sticky button 1: Call
+Mobile sticky button 2: WhatsApp
+Mobile sticky button 3: Free Quote
+
+--- Trust strip ---
+Trust item 1: [X.X] stars on Google · [YYY]+ reviews
+Trust item 2: Experienced, certified, in-house technicians
+Trust item 3: Fast response · Same-day service
+Trust item 4: Available 24/7
+Trust item 5: Transparent pricing
+Trust item 6: Residential & commercial
+
+--- Footer ---
+Footer company text: Hannah Care provides residential and commercial property maintenance services. Services offered are subject to our trade licence, approvals and site access.
+Copyright: © {year} Hannah Care Property Maintenance. All rights reserved.
+
+--- Client logos section ---
+Eyebrow: Trusted relationships
+Heading: Our clients
+
+==============================================================================
+QUOTE FORM — SHOWN AT THE BOTTOM OF PUBLIC PAGES
+==============================================================================
+Section eyebrow: Ready when you are
+Section heading: Tell us what needs attention.
+Section intro: Share a few details and our team will get back to you quickly. For urgent jobs, call or message us directly.
+Form eyebrow: Free, no-obligation quote
+Form heading: Tell us what you need
+Form intro: Share a few details and our team will get back to you quickly. Prefer to talk? Call or WhatsApp us any time.
+Field 1 label: Full name
+Field 2 label: Phone / WhatsApp number
+Field 3 label: Property type
+Field 3 options: Residential | Commercial
+Field 4 label: Service needed
+Field 4 options: AC Repair Service | AC Maintenance Service | AC Duct Cleaning | Full AC System Cleaning | AC Coil Cleaning | Annual Maintenance Contract (AMC) | AC Installation | Insulation | Electrical Repairs & Fault Finding | Lighting Installation | Switches, Sockets & Transformers | Rewiring | Home Entertainment Setup | Special Lighting & Feature Installations | Circuit Breaker Repair & Load Balancing | Drain Cleaning & Unclogging | Water Heater Repair | Water Pump Repair & Replacement | Leak Repair | Water Tank Cleaning | Plumbing Installation | Other / Not sure
+Field 5 label: Area / building (optional)
+Field 6 label: Anything we should know? (optional)
+Consent note: By submitting, you agree that Hannah Care may contact you about your enquiry.
+Success heading: Thank you, we have your request.
+Success text: A member of our team will contact you shortly. If it is urgent, please call or WhatsApp us now.
+General error text: Something went wrong. Please call or WhatsApp us and we will help right away.
+
+--- Form validation messages ---
+Validation summary: Please correct the highlighted fields before sending your request.
+Name error: Please enter your full name (at least 2 characters).
+Missing phone error: Please enter your phone or WhatsApp number.
+Invalid phone error: Enter a valid phone number with at least 7 digits.
+Property type error: Please choose residential or commercial.
+Service error: Please choose the service you need.
+Area length error: Area or building must be 120 characters or fewer.
+Message length error: Message must be 2,000 characters or fewer.
+
+==============================================================================
+HOME PAGE
+==============================================================================
+Page URL: https://hannahcare.ae/
+
+--- SEO ---
+Browser / search title: Hannah Care | AC, Electrical & Plumbing Services for Homes & Businesses
+Meta description: Fast, reliable AC repair & maintenance, plumbing and electrical services for residential and commercial properties. Same-day service, transparent pricing, available 24/7.
+Canonical URL: https://hannahcare.ae
+
+--- Hero (top of page) ---
+Eyebrow: Residential & Commercial Property Maintenance
+Main heading (H1): Care for every corner of your property.
+Intro text: AC, plumbing and electrical specialists, one trusted team. Fast response, clear pricing and fixes done right, often in a single visit.
+Bullet points: 
+- Same-day service
+- Available 24/7
+- In-house certified technicians
+Image file: /images/home-hero.jpg
+Image alt text: Hannah Care technician servicing a home
+Primary CTA: Call Now
+WhatsApp CTA: WhatsApp Us
+Quote CTA: Get My Free Quote
+
+--- Services overview ---
+Eyebrow: What we do
+Heading: Four services. One reliable team.
+Intro: From a unit that has stopped cooling to a faulty circuit or a leaking pipe, Hannah Care keeps your home or business comfortable and running.
+
+Card 1 title: AC Repair & Maintenance
+Card text: Repair, servicing, duct and coil cleaning, installation and annual contracts for every type of AC system.
+Card link: https://hannahcare.ae/ac-repair-maintenance
+Image file: /images/card-ac.jpg
+Image alt text: Technician servicing an AC unit
+Link label: Explore service
+
+Card 2 title: Plumbing Services
+Card text: Leak repair, drain unclogging, water heaters, pumps, tank cleaning and full plumbing installation.
+Card link: https://hannahcare.ae/plumbing-services
+Image file: /images/card-plumbing.jpg
+Image alt text: Plumber repairing a pipe under a sink
+Link label: Explore service
+
+Card 3 title: Electrical Services
+Card text: Fault finding, lighting, sockets, rewiring, circuit breakers and safe installations for homes and businesses.
+Card link: https://hannahcare.ae/electrical-services
+Image file: /images/card-electrical.jpg
+Image alt text: Electrician working on a distribution board
+Link label: Explore service
+
+Card 4 title: Insulation
+Card text: Neat, durable insulation for AC piping to protect efficiency and prevent condensation and drips.
+Card link: https://hannahcare.ae/ac-repair-maintenance#insulation
+Image file: /images/card-insulation.jpg
+Image alt text: Insulated copper AC piping
+Link label: Explore service
+
+--- Spotlight ---
+Eyebrow: Specialist service
+Heading: AC Duct Cleaning that you can actually breathe easier about.
+Text: Dust, debris and buildup collect inside ductwork over time, which can reduce airflow and make your AC work harder. Our team cleans supply and return ducts, vents, grilles and diffusers for apartments, villas, offices and commercial spaces, with before-and-after checks where required.
+Bullet points: 
+- Supply & return duct cleaning
+- Vents, grilles & diffusers
+- Before-and-after inspection photos
+- Periodic plans for homes and businesses
+Image file: /images/spotlight-duct.jpg
+Image alt text: Technician cleaning an AC air duct
+Button: Book Duct Cleaning
+
+--- Why Hannah Care ---
+Eyebrow: Why Hannah Care
+Heading: The kind of service you only need to find once.
+Supporting text: Calm, capable property care — from the first call to the final check.
+Reason 1 title: Experienced, certified, in-house technicians
+Reason 1 text: Our own trained team, not subcontractors, so quality stays consistent.
+Reason 2 title: Fast response, same-day service
+Reason 2 text: We know a breakdown cannot wait. Call or WhatsApp and we will get moving.
+Reason 3 title: Transparent pricing
+Reason 3 text: Clear quotes explained before work begins. No surprises.
+Reason 4 title: Available 24/7
+Reason 4 text: Day or night, there is always someone to take your call.
+Reason 5 title: Equipped for one-visit fixes
+Reason 5 text: Our technicians arrive with the tools and common parts to solve most issues on the first visit.
+Reason 6 title: Current tools and methods
+Reason 6 text: Modern diagnostic equipment and up-to-date techniques for accurate, lasting repairs.
+Reason 7 title: Residential and commercial
+Reason 7 text: From apartments and villas to offices, shops and larger commercial sites.
+Reason 8 title: Every kind of system
+Reason 8 text: Split, FCU and package AC units, and the plumbing and electrical systems that surround them.
+
+--- Annual Maintenance Contracts ---
+Eyebrow: Annual Maintenance Contracts
+Heading: Stop emergencies before they start.
+Text: Our AMC plans cover scheduled AC servicing and routine checks, with visit frequency and scope tailored to your property. Priority response depends on the package you select.
+Option 1 button: Residential AMC
+Option 1 text: For apartments and villas.
+Option 2 button: Commercial AMC
+Option 2 text: For offices, shops and commercial properties.
+
+--- Testimonials ---
+Eyebrow: Customer experiences
+Heading: What our customers say
+Internal preview note: Preview content — replace with verified customer reviews before advertising.
+Review 1 name: Villa owner
+Review 1 location: Dubai
+Review 1 service: AC maintenance
+Review 1 text: The team arrived on time, explained what the AC needed and completed the service neatly. The cooling difference was noticeable straight away.
+Review 1 rating: 5/5
+Review 1 source: Sample review
+Review 2 name: Apartment resident
+Review 2 location: Dubai
+Review 2 service: Plumbing repair
+Review 2 text: Quick response, clear communication and a tidy repair. The technician found the cause of the leak and made sure everything was working before leaving.
+Review 2 rating: 5/5
+Review 2 source: Sample review
+Review 3 name: Office manager
+Review 3 location: Dubai
+Review 3 service: Electrical service
+Review 3 text: Professional from the first call to the final check. The work was organised around our office hours and the issue was resolved with minimal disruption.
+Review 3 rating: 5/5
+Review 3 source: Sample review
+
+--- Process section ---
+Eyebrow: How it works
+Heading: Simple from first call to finished job.
+Step 1 title: Contact us
+Step 1 text: Call, WhatsApp or send the form. Tell us what is happening.
+Step 2 title: Clear quote
+Step 2 text: We assess the job and explain the scope and price upfront.
+Step 3 title: Fast service
+Step 3 text: A technician arrives on time with the right tools to get it done.
+Step 4 title: Checked & handed over
+Step 4 text: We test the work, tidy up and make sure you are happy.
+
+--- FAQ ---
+Heading: Frequently asked questions
+Question 1: Do you work with both homes and businesses?
+Answer 1: Yes. We serve apartments, villas, offices, shops and other commercial properties.
+Question 2: Can you come the same day?
+Answer 2: We offer same-day service and are available 24/7. Exact timing depends on your location and current workload, so call or WhatsApp us for the fastest response.
+Question 3: How does pricing work?
+Answer 3: We believe in transparent pricing. We explain the scope and cost clearly before work begins, so you know what to expect.
+Question 4: What types of AC do you work on?
+Answer 4: We service split, FCU and package units, including repair, maintenance, cleaning and installation.
+Question 5: Can I get a maintenance contract?
+Answer 5: Yes. We offer Annual Maintenance Contracts for both residential and commercial properties, tailored to your needs.
+
+--- Final CTA ---
+Heading: Need help today? We are one message away.
+Text: Call, WhatsApp or send a request. Our team is ready to help.
+Button: Get My Free Quote
+
+==============================================================================
+AC REPAIR & MAINTENANCE PAGE
+==============================================================================
+Page URL: https://hannahcare.ae/ac-repair-maintenance
+
+--- SEO ---
+Browser / search title: AC Repair, Maintenance & Duct Cleaning | Hannah Care
+Meta description: AC repair, maintenance, duct cleaning, coil cleaning, installation and annual contracts for homes and businesses. Same-day service, available 24/7.
+Canonical URL: https://hannahcare.ae/ac-repair-maintenance
+
+--- Hero (top of page) ---
+Eyebrow: AC Repair & Maintenance
+Main heading (H1): Cool, clean air back, fast.
+Intro text: Expert repair, servicing, cleaning and installation for split, FCU and package AC units in homes and commercial properties.
+Bullet points: 
+- Same-day service
+- Available 24/7
+- One-visit fixes
+Image file: /images/ac-hero.jpg
+Image alt text: Technician repairing a split AC unit
+Primary CTA: Call Now
+WhatsApp CTA: WhatsApp Us
+Quote CTA: Get My Free Quote
+
+--- Introduction ---
+Heading: Everything your AC needs, under one roof.
+Text: A well-kept AC cools better, uses less energy and lasts longer. Whether it has stopped cooling, is leaking water, or simply needs a service, our in-house technicians diagnose the real cause and fix it properly.
+
+--- Services ---
+
+Service 1 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-repair
+Service title: AC Repair Service
+Service text: AC not cooling, weak airflow, strange noises or water leaking? We find the root cause and repair it, often in a single visit.
+Service bullet points: 
+- Poor cooling diagnosis & repair
+- Water leakage & drain-line blockage
+- Thermostat troubleshooting & replacement
+- Capacitor, contactor & fan motor replacement
+Image file: /images/ac-repair.jpg
+Image alt text: Technician diagnosing an AC fault
+Button: Get My Free Quote
+
+Service 2 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-maintenance
+Service title: AC Maintenance Service
+Service text: Regular servicing keeps your AC efficient and helps prevent costly breakdowns, especially before the hot season.
+Service bullet points: 
+- Routine servicing & preventive checks
+- Filter cleaning & replacement
+- Performance and safety checks
+- Split, FCU & package units
+Image file: /images/ac-maintenance.jpg
+Image alt text: Technician servicing an AC filter
+Button: Get My Free Quote
+
+Service 3 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-duct-cleaning
+Service title: AC Duct Cleaning
+Service text: Our specialist duct cleaning removes dust, debris and accumulated contaminants from accessible ductwork, helping air flow freely and your space feel fresher.
+Service bullet points: 
+- Supply & return duct cleaning
+- Vents, grilles & diffusers
+- Before-and-after inspection photos where required
+- Apartments, villas, offices & commercial premises
+- Periodic cleaning plans available
+Image file: /images/ac-duct.jpg
+Image alt text: AC duct cleaning in progress
+Button: Get My Free Quote
+
+Service 4 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-full-cleaning
+Service title: Full AC System Cleaning
+Service text: A thorough clean of your complete AC system, indoor and outdoor, to restore airflow, efficiency and cooling.
+Service bullet points: 
+- Indoor unit cleaning
+- Outdoor unit cleaning
+- Drain line check and clearing
+- Performance test after service
+Image file: /images/ac-full-cleaning.jpg
+Image alt text: Cleaning an AC indoor unit
+Button: Get My Free Quote
+
+Service 5 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-coil-cleaning
+Service title: AC Coil Cleaning
+Service text: Dirty coils force your AC to work harder. We clean evaporator and condenser coils so your unit cools better and runs more efficiently.
+Service bullet points: 
+- Evaporator coil cleaning
+- Condenser coil cleaning
+- Improved cooling and airflow
+- Split, FCU & package units
+Image file: /images/ac-coil.jpg
+Image alt text: AC condenser coil being cleaned
+Button: Get My Free Quote
+
+Service 6 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-amc
+Service title: Annual Maintenance Contract
+Service text: Scheduled servicing and routine checks all year round, with visit frequency and scope tailored to your property.
+Service bullet points: 
+- Residential AMC for apartments & villas
+- Commercial AMC for offices & shops
+- Scheduled preventive maintenance
+- Priority response depending on package
+Image file: /images/ac-amc.jpg
+Image alt text: Technician with a maintenance checklist
+Button: Get My Free Quote
+
+Service 7 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-installation
+Service title: AC Installation
+Service text: Professional installation and replacement of AC units, completed neatly and tested before we leave.
+Service bullet points: 
+- Split AC installation (indoor & outdoor units)
+- Replacement of old units with new
+- Copper piping & drain-pipe works
+- Electrical connection and testing
+Image file: /images/ac-installation.jpg
+Image alt text: Technicians installing a split AC
+Button: Get My Free Quote
+
+Service 8 anchor URL: https://hannahcare.ae/ac-repair-maintenance#insulation
+Service title: Insulation
+Service text: Proper insulation of AC piping protects efficiency, reduces condensation and keeps installations neat and long-lasting.
+Service bullet points: 
+- AC copper pipe insulation
+- Drain-pipe insulation
+- Reduced condensation and dripping
+- Clean, tidy finish
+Image file: /images/ac-insulation.jpg
+Image alt text: Insulated AC pipes
+Button: Get My Free Quote
+
+--- Process section ---
+Eyebrow: What to expect
+Heading: What to expect
+Step 1 title: Contact us
+Step 1 text: Call, WhatsApp or send the form.
+Step 2 title: Diagnosis & quote
+Step 2 text: We find the cause and explain the cost upfront.
+Step 3 title: Repair or service
+Step 3 text: Done by a certified technician with the right tools.
+Step 4 title: Test & handover
+Step 4 text: We test performance and tidy up before we leave.
+
+--- FAQ ---
+Heading: AC questions, answered
+Question 1: Why is my AC not cooling properly?
+Answer 1: Common causes include dirty filters or coils, drain blockages or component faults. Our technician will diagnose the exact cause before recommending a repair.
+Question 2: How often should my AC be serviced?
+Answer 2: Regular servicing, typically at least once a year and often more for heavily used units, helps keep your AC efficient. An Annual Maintenance Contract makes this easy.
+Question 3: What does AC duct cleaning involve?
+Answer 3: We clean supply and return ducts, vents, grilles and diffusers, removing dust and debris from accessible ductwork. Scope is agreed before the job.
+Question 4: Can you install a new AC or replace my old one?
+Answer 4: Yes. We install and replace split AC units, including piping, drain and electrical connection, then test the system.
+Question 5: Do you offer maintenance contracts for businesses?
+Answer 5: Yes. We offer both residential and commercial Annual Maintenance Contracts, tailored to your property and visit frequency.
+
+--- Final CTA ---
+Heading: Get your AC running right again.
+Text: Call, WhatsApp or request a free quote, our team is ready.
+Button: Get My Free Quote
+
+==============================================================================
+ELECTRICAL SERVICES PAGE
+==============================================================================
+Page URL: https://hannahcare.ae/electrical-services
+
+--- SEO ---
+Browser / search title: Electrical Services for Homes & Businesses | Hannah Care
+Meta description: Electrical repairs, fault finding, lighting, sockets, rewiring and circuit breaker services for residential and commercial properties. Available 24/7.
+Canonical URL: https://hannahcare.ae/electrical-services
+
+--- Hero (top of page) ---
+Eyebrow: Electrical Services
+Main heading (H1): Safe, reliable electrical work.
+Intro text: From tripping breakers to full rewiring, our certified electricians keep your home or business powered safely.
+Bullet points: 
+- Same-day service
+- Available 24/7
+- Certified in-house electricians
+Image file: /images/electrical-hero.jpg
+Image alt text: Electrician working on a distribution board
+Primary CTA: Call Now
+WhatsApp CTA: WhatsApp Us
+Quote CTA: Get My Free Quote
+
+--- Introduction ---
+Heading: Electrical work you can trust.
+Text: Electricity is not a place to cut corners. Our experienced, in-house electricians find faults quickly, work safely and leave your installation neat, tested and dependable.
+
+--- Services ---
+
+Service 1 anchor URL: https://hannahcare.ae/electrical-services#electrical-repairs
+Service title: Electrical Repairs & Fault Finding
+Service text: Tripping circuits, loose connections or power that has gone out? We trace the fault and fix it properly.
+Service bullet points: 
+- Fault finding & troubleshooting
+- Tripping & loose connection repair
+- Replacement of damaged accessories
+Image file: /images/elec-repairs.jpg
+Image alt text: Electrician testing wiring
+Button: Get My Free Quote
+
+Service 2 anchor URL: https://hannahcare.ae/electrical-services#lighting
+Service title: Indoor & Outdoor Lighting Installation
+Service text: Light fittings installed and replaced for every room and outdoor space, for brighter, safer, better-looking property.
+Service bullet points: 
+- Indoor light fittings
+- Outdoor & garden lighting
+- Ceiling and exhaust fan installation
+Image file: /images/elec-lighting.jpg
+Image alt text: Installing a ceiling light
+Button: Get My Free Quote
+
+Service 3 anchor URL: https://hannahcare.ae/electrical-services#switches-sockets
+Service title: Switches, Sockets & Transformer Installation
+Service text: New or replacement switches, sockets and transformers fitted safely and tested.
+Service bullet points: 
+- Switch & socket installation / replacement
+- Transformer installation
+- Appliance and equipment connections
+Image file: /images/elec-sockets.jpg
+Image alt text: Replacing a wall socket
+Button: Get My Free Quote
+
+Service 4 anchor URL: https://hannahcare.ae/electrical-services#rewiring
+Service title: Domestic & Commercial Rewiring
+Service text: Safe, tidy rewiring for homes, offices and shops, whether you are updating an older installation or renovating.
+Service bullet points: 
+- Full and partial rewiring
+- Homes, offices & shops
+- Tested and handed over cleanly
+Image file: /images/elec-rewiring.jpg
+Image alt text: Electrician rewiring a property
+Button: Get My Free Quote
+
+Service 5 anchor URL: https://hannahcare.ae/electrical-services#home-entertainment
+Service title: Home Entertainment System Setup
+Service text: Clean, professional wiring and setup for TVs, sound systems and home entertainment, with tidy cable management.
+Service bullet points: 
+- TV and sound system wiring
+- Neat cable concealment
+- Power and connection setup
+Image file: /images/elec-entertainment.jpg
+Image alt text: Home cinema setup
+Button: Get My Free Quote
+
+Service 6 anchor URL: https://hannahcare.ae/electrical-services#special-lighting
+Service title: Special Lighting & Feature Installations
+Service text: Statement and feature lighting installed with care, from decorative fittings to custom lighting details.
+Service bullet points: 
+- Decorative & feature lighting
+- Custom lighting installations
+- Careful, clean finishing
+Image file: /images/elec-feature.jpg
+Image alt text: Feature lighting installation
+Button: Get My Free Quote
+
+Service 7 anchor URL: https://hannahcare.ae/electrical-services#circuit-breakers
+Service title: Circuit Breaker Repair & Load Balancing
+Service text: Breakers that keep tripping can signal overload or faults. We repair, replace and balance the load for safe, stable power.
+Service bullet points: 
+- MCB replacement
+- Distribution board maintenance
+- Load balancing
+Image file: /images/elec-breakers.jpg
+Image alt text: Circuit breakers in a distribution board
+Button: Get My Free Quote
+
+--- Process section ---
+Eyebrow: What to expect
+Heading: What to expect
+Step 1 title: Contact us
+Step 1 text: Call, WhatsApp or send the form.
+Step 2 title: Safe assessment
+Step 2 text: We inspect, find the fault and quote upfront.
+Step 3 title: Professional work
+Step 3 text: Completed by a certified electrician.
+Step 4 title: Tested & handed over
+Step 4 text: Everything is tested and left tidy.
+
+--- FAQ ---
+Heading: Electrical questions, answered
+Question 1: Why does my circuit breaker keep tripping?
+Answer 1: It can be caused by overload, a faulty appliance or a wiring fault. Our electrician will trace the cause and fix it safely.
+Question 2: Can you handle commercial electrical work?
+Answer 2: Yes. We work in homes, offices, shops and other commercial properties.
+Question 3: Do you offer emergency electrical service?
+Answer 3: We are available 24/7. Call or WhatsApp us and we will respond as quickly as possible.
+Question 4: Can you rewire an older property?
+Answer 4: Yes. We carry out full and partial rewiring for domestic and commercial properties.
+Question 5: Will you explain the cost before starting?
+Answer 5: Always. We explain the scope and price clearly before any work begins.
+
+--- Final CTA ---
+Heading: Electrical problem? Call us now.
+Text: Call, WhatsApp or request a quote. We are available 24/7.
+Button: Get My Free Quote
+
+==============================================================================
+PLUMBING SERVICES PAGE
+==============================================================================
+Page URL: https://hannahcare.ae/plumbing-services
+
+--- SEO ---
+Browser / search title: Plumbing Services: Leaks, Drains, Water Heaters | Hannah Care
+Meta description: Drain unclogging, water heater and pump repair, leak repair, water tank cleaning and plumbing installation for homes and businesses. Available 24/7.
+Canonical URL: https://hannahcare.ae/plumbing-services
+
+--- Hero (top of page) ---
+Eyebrow: Plumbing Services
+Main heading (H1): Leaks, blockages and breakdowns, fixed fast.
+Intro text: Reliable plumbing for homes and commercial properties, from urgent repairs to full installations.
+Bullet points: 
+- Same-day service
+- Available 24/7
+- One-visit fixes
+Image file: /images/plumbing-hero.jpg
+Image alt text: Plumber repairing a pipe
+Primary CTA: Call Now
+WhatsApp CTA: WhatsApp Us
+Quote CTA: Get My Free Quote
+
+--- Introduction ---
+Heading: Plumbing done right, the first time.
+Text: A small leak or blocked drain can quickly become a big problem. Our in-house plumbers arrive equipped to solve most issues in one visit and leave your space clean.
+
+--- Services ---
+
+Service 1 anchor URL: https://hannahcare.ae/plumbing-services#drain-cleaning
+Service title: Drain Cleaning & Unclogging
+Service text: Blocked sinks, basins, floor drains or toilets? We clear the blockage and get water flowing again.
+Service bullet points: 
+- Sink, basin & floor drain clearing
+- Toilet blockage clearing
+- Fast, clean service
+Image file: /images/plumb-drain.jpg
+Image alt text: Clearing a blocked drain
+Button: Get My Free Quote
+
+Service 2 anchor URL: https://hannahcare.ae/plumbing-services#water-heater
+Service title: Water Heater Repair
+Service text: No hot water, or a heater that is leaking or slow to heat? We repair or replace it so you are never left in the cold.
+Service bullet points: 
+- Heater repair
+- Heater replacement
+- Residential and commercial
+Image file: /images/plumb-heater.jpg
+Image alt text: Water heater repair
+Button: Get My Free Quote
+
+Service 3 anchor URL: https://hannahcare.ae/plumbing-services#water-pump
+Service title: Water Pump Repair & Replacement
+Service text: Low pressure or a pump that has stopped working? We repair or replace pumps and handle the related plumbing works.
+Service bullet points: 
+- Pump repair
+- Pump replacement
+- Related plumbing works
+Image file: /images/plumb-pump.jpg
+Image alt text: Water pump servicing
+Button: Get My Free Quote
+
+Service 4 anchor URL: https://hannahcare.ae/plumbing-services#leak-repair
+Service title: Repairing Leaks
+Service text: We locate the true source of leaks and repair them before they cause damage to walls, ceilings and belongings.
+Service bullet points: 
+- Leak identification
+- Pipe, tap & fitting repairs
+- Hose and angle-valve replacement
+Image file: /images/plumb-leak.jpg
+Image alt text: Repairing a leaking pipe
+Button: Get My Free Quote
+
+Service 5 anchor URL: https://hannahcare.ae/plumbing-services#tank-cleaning
+Service title: Water Tank Cleaning
+Service text: Thorough cleaning and sanitization of water tanks, removing sediment and deposits for cleaner water.
+Service bullet points: 
+- Draining & internal cleaning
+- Sediment & dirt removal
+- Disinfection / sanitization
+- Residential & commercial tanks (subject to site access)
+Image file: /images/plumb-tank.jpg
+Image alt text: Water tank cleaning
+Button: Get My Free Quote
+
+Service 6 anchor URL: https://hannahcare.ae/plumbing-services#plumbing-installation
+Service title: Plumbing Installation Services
+Service text: Neat, professional installation of plumbing fixtures and fittings for homes, offices and commercial spaces.
+Service bullet points: 
+- WC, wash basin & sink installation
+- Taps, mixers & shower fittings
+- Kitchen and bathroom connections
+Image file: /images/plumb-install.jpg
+Image alt text: Installing a bathroom fixture
+Button: Get My Free Quote
+
+--- Process section ---
+Eyebrow: What to expect
+Heading: What to expect
+Step 1 title: Contact us
+Step 1 text: Call, WhatsApp or send the form.
+Step 2 title: Quick assessment
+Step 2 text: We find the problem and quote upfront.
+Step 3 title: Repair or install
+Step 3 text: Done by an experienced in-house plumber.
+Step 4 title: Check & clean-up
+Step 4 text: We test everything and tidy the area.
+
+--- FAQ ---
+Heading: Plumbing questions, answered
+Question 1: How quickly can you fix a leak?
+Answer 1: We offer same-day service and are available 24/7. Call or WhatsApp us for the fastest response.
+Question 2: Can you clear a blocked toilet or drain?
+Answer 2: Yes. We clear blocked sinks, basins, floor drains and toilets.
+Question 3: Do you repair and replace water heaters?
+Answer 3: Yes. We diagnose and repair water heaters, and replace them when needed.
+Question 4: Do you clean water tanks for buildings?
+Answer 4: We clean residential water tanks and also commercial or building tanks, subject to site access and requirements.
+Question 5: Will I know the price before work starts?
+Answer 5: Yes. We explain the scope and cost clearly before any work begins.
+
+--- Final CTA ---
+Heading: Plumbing trouble? Let us sort it out.
+Text: Call, WhatsApp or request a quote. We are available 24/7.
+Button: Get My Free Quote
+
+==============================================================================
+SYSTEM MESSAGES
+==============================================================================
+404 eyebrow: 404
+404 heading: We could not find that page.
+404 button: Return home
