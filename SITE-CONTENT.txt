@@ -28,7 +28,12 @@ Phone link value: [+971XXXXXXXXX]
 WhatsApp number: [971XXXXXXXXX]
 WhatsApp opening message: Hello Hannah Care, I would like to enquire about {service}.
 Email: [info@hannahcare.example]
-Opening hours: Available 24/7
+Opening hours: Monday–Saturday, 9:00 AM–6:00 PM
+
+--- Temporarily disabled services — content kept for reactivation ---
+Disabled service IDs: insulation
+Hidden form options: Insulation
+Internal note: Insulation is temporarily unavailable while the team recruits a new specialist. Keep its content and images for quick reactivation.
 
 --- CTA labels ---
 Call button: Call Now
@@ -50,7 +55,7 @@ Mobile sticky button 3: Free Quote
 Trust item 1: [X.X] stars on Google · [YYY]+ reviews
 Trust item 2: Experienced, certified, in-house technicians
 Trust item 3: Fast response · Same-day service
-Trust item 4: Available 24/7
+Trust item 4: Mon–Sat · 9:00 AM–6:00 PM
 Trust item 5: Transparent pricing
 Trust item 6: Residential & commercial
 
@@ -70,7 +75,7 @@ Section heading: Tell us what needs attention.
 Section intro: Share a few details and our team will get back to you quickly. For urgent jobs, call or message us directly.
 Form eyebrow: Free, no-obligation quote
 Form heading: Tell us what you need
-Form intro: Share a few details and our team will get back to you quickly. Prefer to talk? Call or WhatsApp us any time.
+Form intro: Share a few details and our team will get back to you quickly. Prefer to talk? Call or WhatsApp us during working hours.
 Field 1 label: Full name
 Field 2 label: Phone / WhatsApp number
 Field 3 label: Property type
@@ -101,7 +106,7 @@ Page URL: https://hannahcare.ae/
 
 --- SEO ---
 Browser / search title: Hannah Care | AC, Electrical & Plumbing Services for Homes & Businesses
-Meta description: Fast, reliable AC repair & maintenance, plumbing and electrical services for residential and commercial properties. Same-day service, transparent pricing, available 24/7.
+Meta description: Fast, reliable AC repair & maintenance, plumbing and electrical services for residential and commercial properties. Same-day service and transparent pricing.
 Canonical URL: https://hannahcare.ae
 
 --- Hero (top of page) ---
@@ -110,7 +115,7 @@ Main heading (H1): Care for every corner of your property.
 Intro text: AC, plumbing and electrical specialists, one trusted team. Fast response, clear pricing and fixes done right, often in a single visit.
 Bullet points: 
 - Same-day service
-- Available 24/7
+- Mon–Sat · 9:00 AM–6:00 PM
 - In-house certified technicians
 Image file: /images/home-hero.jpg
 Image alt text: Hannah Care technician servicing a home
@@ -174,8 +179,8 @@ Reason 2 title: Fast response, same-day service
 Reason 2 text: We know a breakdown cannot wait. Call or WhatsApp and we will get moving.
 Reason 3 title: Transparent pricing
 Reason 3 text: Clear quotes explained before work begins. No surprises.
-Reason 4 title: Available 24/7
-Reason 4 text: Day or night, there is always someone to take your call.
+Reason 4 title: Six days a week
+Reason 4 text: Our team is available Monday to Saturday, from 9:00 AM to 6:00 PM.
 Reason 5 title: Equipped for one-visit fixes
 Reason 5 text: Our technicians arrive with the tools and common parts to solve most issues on the first visit.
 Reason 6 title: Current tools and methods
@@ -234,7 +239,7 @@ Heading: Frequently asked questions
 Question 1: Do you work with both homes and businesses?
 Answer 1: Yes. We serve apartments, villas, offices, shops and other commercial properties.
 Question 2: Can you come the same day?
-Answer 2: We offer same-day service and are available 24/7. Exact timing depends on your location and current workload, so call or WhatsApp us for the fastest response.
+Answer 2: We offer same-day service during our Monday-to-Saturday working schedule. Exact timing depends on your location and current workload, so call or WhatsApp us for the fastest response.
 Question 3: How does pricing work?
 Answer 3: We believe in transparent pricing. We explain the scope and cost clearly before work begins, so you know what to expect.
 Question 4: What types of AC do you work on?
@@ -254,7 +259,7 @@ Page URL: https://hannahcare.ae/ac-repair-maintenance
 
 --- SEO ---
 Browser / search title: AC Repair, Maintenance & Duct Cleaning | Hannah Care
-Meta description: AC repair, maintenance, duct cleaning, coil cleaning, installation and annual contracts for homes and businesses. Same-day service, available 24/7.
+Meta description: AC repair, maintenance, duct cleaning, coil cleaning, installation and annual contracts for homes and businesses. Same-day service, Monday to Saturday.
 Canonical URL: https://hannahcare.ae/ac-repair-maintenance
 
 --- Hero (top of page) ---
@@ -263,7 +268,7 @@ Main heading (H1): Cool, clean air back, fast.
 Intro text: Expert repair, servicing, cleaning and installation for split, FCU and package AC units in homes and commercial properties.
 Bullet points: 
 - Same-day service
-- Available 24/7
+- Mon–Sat · 9:00 AM–6:00 PM
 - One-visit fixes
 Image file: /images/ac-hero.jpg
 Image alt text: Technician repairing a split AC unit
@@ -411,7 +416,7 @@ Page URL: https://hannahcare.ae/electrical-services
 
 --- SEO ---
 Browser / search title: Electrical Services for Homes & Businesses | Hannah Care
-Meta description: Electrical repairs, fault finding, lighting, sockets, rewiring and circuit breaker services for residential and commercial properties. Available 24/7.
+Meta description: Electrical repairs, fault finding, lighting, sockets, rewiring and circuit breaker services for residential and commercial properties, Monday to Saturday.
 Canonical URL: https://hannahcare.ae/electrical-services
 
 --- Hero (top of page) ---
@@ -420,7 +425,7 @@ Main heading (H1): Safe, reliable electrical work.
 Intro text: From tripping breakers to full rewiring, our certified electricians keep your home or business powered safely.
 Bullet points: 
 - Same-day service
-- Available 24/7
+- Mon–Sat · 9:00 AM–6:00 PM
 - Certified in-house electricians
 Image file: /images/electrical-hero.jpg
 Image alt text: Electrician working on a distribution board
@@ -529,8 +534,8 @@ Question 1: Why does my circuit breaker keep tripping?
 Answer 1: It can be caused by overload, a faulty appliance or a wiring fault. Our electrician will trace the cause and fix it safely.
 Question 2: Can you handle commercial electrical work?
 Answer 2: Yes. We work in homes, offices, shops and other commercial properties.
-Question 3: Do you offer emergency electrical service?
-Answer 3: We are available 24/7. Call or WhatsApp us and we will respond as quickly as possible.
+Question 3: How quickly can you attend an electrical issue?
+Answer 3: We offer same-day service where availability allows. Call or WhatsApp us Monday to Saturday, from 9:00 AM to 6:00 PM, and we will respond as quickly as possible.
 Question 4: Can you rewire an older property?
 Answer 4: Yes. We carry out full and partial rewiring for domestic and commercial properties.
 Question 5: Will you explain the cost before starting?
@@ -538,7 +543,7 @@ Answer 5: Always. We explain the scope and price clearly before any work begins.
 
 --- Final CTA ---
 Heading: Electrical problem? Call us now.
-Text: Call, WhatsApp or request a quote. We are available 24/7.
+Text: Call, WhatsApp or request a quote Monday to Saturday, from 9:00 AM to 6:00 PM.
 Button: Get My Free Quote
 
 ==============================================================================
@@ -548,7 +553,7 @@ Page URL: https://hannahcare.ae/plumbing-services
 
 --- SEO ---
 Browser / search title: Plumbing Services: Leaks, Drains, Water Heaters | Hannah Care
-Meta description: Drain unclogging, water heater and pump repair, leak repair, water tank cleaning and plumbing installation for homes and businesses. Available 24/7.
+Meta description: Drain unclogging, water heater and pump repair, leak repair, water tank cleaning and plumbing installation for homes and businesses, Monday to Saturday.
 Canonical URL: https://hannahcare.ae/plumbing-services
 
 --- Hero (top of page) ---
@@ -557,7 +562,7 @@ Main heading (H1): Leaks, blockages and breakdowns, fixed fast.
 Intro text: Reliable plumbing for homes and commercial properties, from urgent repairs to full installations.
 Bullet points: 
 - Same-day service
-- Available 24/7
+- Mon–Sat · 9:00 AM–6:00 PM
 - One-visit fixes
 Image file: /images/plumbing-hero.jpg
 Image alt text: Plumber repairing a pipe
@@ -653,7 +658,7 @@ Step 4 text: We test everything and tidy the area.
 --- FAQ ---
 Heading: Plumbing questions, answered
 Question 1: How quickly can you fix a leak?
-Answer 1: We offer same-day service and are available 24/7. Call or WhatsApp us for the fastest response.
+Answer 1: We offer same-day service where availability allows. Call or WhatsApp us Monday to Saturday, from 9:00 AM to 6:00 PM, for the fastest response.
 Question 2: Can you clear a blocked toilet or drain?
 Answer 2: Yes. We clear blocked sinks, basins, floor drains and toilets.
 Question 3: Do you repair and replace water heaters?
@@ -665,7 +670,7 @@ Answer 5: Yes. We explain the scope and cost clearly before any work begins.
 
 --- Final CTA ---
 Heading: Plumbing trouble? Let us sort it out.
-Text: Call, WhatsApp or request a quote. We are available 24/7.
+Text: Call, WhatsApp or request a quote Monday to Saturday, from 9:00 AM to 6:00 PM.
 Button: Get My Free Quote
 
 ==============================================================================

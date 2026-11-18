@@ -6,7 +6,7 @@ const HeroSchema=z.object({eyebrow:z.string(),headline:z.string(),subheadline:z.
 const SeoSchema=z.object({title:z.string(),description:z.string()});
 const ServiceSchema=z.object({id:z.string(),title:z.string(),text:z.string(),bullets:z.array(z.string()),featured:z.boolean().optional(),prefillService:z.string().optional(),image:ImageSchema});
 const PageSchema=z.object({slug:z.string(),seo:SeoSchema,hero:HeroSchema,serviceDefault:z.string().optional(),intro:z.object({title:z.string(),text:z.string()}).optional(),services:z.array(ServiceSchema).optional(),processSection:z.any().optional(),faq:z.object({title:z.string(),items:z.array(z.object({q:z.string(),a:z.string()}))}),finalCta:z.any().optional()}).passthrough();
-const Schema=z.object({site:z.any(),theme:z.any(),tracking:z.any(),cta:z.any(),trust:z.any(),form:z.any(),pages:z.object({home:PageSchema,ac:PageSchema,electrical:PageSchema,plumbing:PageSchema})});
+const Schema=z.object({site:z.any(),availability:z.object({disabledServiceIds:z.array(z.string()),disabledFormOptions:z.array(z.string()),note:z.string()}),theme:z.any(),tracking:z.any(),cta:z.any(),trust:z.any(),form:z.any(),pages:z.object({home:PageSchema,ac:PageSchema,electrical:PageSchema,plumbing:PageSchema})});
 const result=Schema.safeParse(raw);
 if(!result.success) throw new Error(`Invalid content/site.json:\n${z.prettifyError(result.error)}`);
 export const content=result.data as typeof raw;
@@ -15,3 +15,5 @@ export const placeholders=(value:unknown,path='content'):string[]=> typeof value
 const unresolved=placeholders(content);
 if(unresolved.length) console.warn(`Unresolved placeholders (${unresolved.length}):\n${unresolved.join('\n')}`);
 export const isPlaceholder=(v:string)=>/\[[^\]]+]/.test(v);
+export const isServiceEnabled=(id:string)=>!content.availability.disabledServiceIds.includes(id);
+export const isFormOptionEnabled=(option:string)=>!content.availability.disabledFormOptions.includes(option);

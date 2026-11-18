@@ -15,7 +15,7 @@
       "whatsappNumber": "[971XXXXXXXXX]",
       "whatsappPrefill": "Hello Hannah Care, I would like to enquire about {service}.",
       "email": "[info@hannahcare.example]",
-      "hours": "Available 24/7"
+      "hours": "Monday–Saturday, 9:00 AM–6:00 PM"
     },
     "logo": {
       "full": "/brand/hannah-care-logo.svg",
@@ -25,6 +25,12 @@
     "social": { "instagram": "", "facebook": "", "linkedin": "" },
     "footerNote": "Hannah Care provides residential and commercial property maintenance services. Services offered are subject to our trade licence, approvals and site access.",
     "copyright": "© {year} Hannah Care Property Maintenance. All rights reserved."
+  },
+
+  "availability": {
+    "disabledServiceIds": ["insulation"],
+    "disabledFormOptions": ["Insulation"],
+    "note": "Insulation is temporarily unavailable while the team recruits a new specialist. Keep its content and images for quick reactivation."
   },
 
   "theme": {
@@ -82,7 +88,7 @@
       { "icon": "star", "text": "[X.X] stars on Google · [YYY]+ reviews" },
       { "icon": "badge", "text": "Experienced, certified, in-house technicians" },
       { "icon": "bolt", "text": "Fast response · Same-day service" },
-      { "icon": "clock", "text": "Available 24/7" },
+      { "icon": "clock", "text": "Mon–Sat · 9:00 AM–6:00 PM" },
       { "icon": "tag", "text": "Transparent pricing" },
       { "icon": "building", "text": "Residential & commercial" }
     ]
@@ -90,7 +96,7 @@
 
   "form": {
     "title": "Tell us what you need",
-    "subtitle": "Share a few details and our team will get back to you quickly. Prefer to talk? Call or WhatsApp us any time.",
+    "subtitle": "Share a few details and our team will get back to you quickly. Prefer to talk? Call or WhatsApp us during working hours.",
     "fields": {
       "name": { "label": "Full name", "required": true },
       "phone": { "label": "Phone / WhatsApp number", "required": true },
@@ -142,13 +148,13 @@
       "slug": "/",
       "seo": {
         "title": "Hannah Care | AC, Electrical & Plumbing Services for Homes & Businesses",
-        "description": "Fast, reliable AC repair & maintenance, plumbing and electrical services for residential and commercial properties. Same-day service, transparent pricing, available 24/7."
+        "description": "Fast, reliable AC repair & maintenance, plumbing and electrical services for residential and commercial properties. Same-day service and transparent pricing."
       },
       "hero": {
         "eyebrow": "Residential & Commercial Property Maintenance",
         "headline": "Care for every corner of your property.",
         "subheadline": "AC, plumbing and electrical specialists, one trusted team. Fast response, clear pricing and fixes done right, often in a single visit.",
-        "bullets": ["Same-day service", "Available 24/7", "In-house certified technicians"],
+        "bullets": ["Same-day service", "Mon–Sat · 9:00 AM–6:00 PM", "In-house certified technicians"],
         "image": { "src": "/images/home-hero.jpg", "alt": "Hannah Care technician servicing a home", "ratio": "4:5", "brief": "Warm, natural-light photo of a friendly technician in an olive/neutral uniform inside a bright modern living room, with an AC unit visible. Real, not stock-looking." }
       },
       "servicesSection": {
@@ -206,7 +212,7 @@
           { "icon": "badge", "title": "Experienced, certified, in-house technicians", "text": "Our own trained team, not subcontractors, so quality stays consistent." },
           { "icon": "bolt", "title": "Fast response, same-day service", "text": "We know a breakdown cannot wait. Call or WhatsApp and we will get moving." },
           { "icon": "tag", "title": "Transparent pricing", "text": "Clear quotes explained before work begins. No surprises." },
-          { "icon": "clock", "title": "Available 24/7", "text": "Day or night, there is always someone to take your call." },
+          { "icon": "clock", "title": "Six days a week", "text": "Our team is available Monday to Saturday, from 9:00 AM to 6:00 PM." },
           { "icon": "wrench", "title": "Equipped for one-visit fixes", "text": "Our technicians arrive with the tools and common parts to solve most issues on the first visit." },
           { "icon": "cog", "title": "Current tools and methods", "text": "Modern diagnostic equipment and up-to-date techniques for accurate, lasting repairs." },
           { "icon": "building", "title": "Residential and commercial", "text": "From apartments and villas to offices, shops and larger commercial sites." },
@@ -247,7 +253,7 @@
         "title": "Frequently asked questions",
         "items": [
           { "q": "Do you work with both homes and businesses?", "a": "Yes. We serve apartments, villas, offices, shops and other commercial properties." },
-          { "q": "Can you come the same day?", "a": "We offer same-day service and are available 24/7. Exact timing depends on your location and current workload, so call or WhatsApp us for the fastest response." },
+          { "q": "Can you come the same day?", "a": "We offer same-day service during our Monday-to-Saturday working schedule. Exact timing depends on your location and current workload, so call or WhatsApp us for the fastest response." },
           { "q": "How does pricing work?", "a": "We believe in transparent pricing. We explain the scope and cost clearly before work begins, so you know what to expect." },
           { "q": "What types of AC do you work on?", "a": "We service split, FCU and package units, including repair, maintenance, cleaning and installation." },
           { "q": "Can I get a maintenance contract?", "a": "Yes. We offer Annual Maintenance Contracts for both residential and commercial properties, tailored to your needs." }
@@ -263,14 +269,14 @@
       "slug": "/ac-repair-maintenance",
       "seo": {
         "title": "AC Repair, Maintenance & Duct Cleaning | Hannah Care",
-        "description": "AC repair, maintenance, duct cleaning, coil cleaning, installation and annual contracts for homes and businesses. Same-day service, available 24/7."
+        "description": "AC repair, maintenance, duct cleaning, coil cleaning, installation and annual contracts for homes and businesses. Same-day service, Monday to Saturday."
       },
       "serviceDefault": "AC Repair Service",
       "hero": {
         "eyebrow": "AC Repair & Maintenance",
         "headline": "Cool, clean air back, fast.",
         "subheadline": "Expert repair, servicing, cleaning and installation for split, FCU and package AC units in homes and commercial properties.",
-        "bullets": ["Same-day service", "Available 24/7", "One-visit fixes"],
+        "bullets": ["Same-day service", "Mon–Sat · 9:00 AM–6:00 PM", "One-visit fixes"],
         "image": { "src": "/images/ac-hero.jpg", "alt": "Technician repairing a split AC unit", "ratio": "4:5", "brief": "Technician servicing an AC unit in a bright room, natural light." }
       },
       "intro": {
@@ -366,14 +372,14 @@
       "slug": "/electrical-services",
       "seo": {
         "title": "Electrical Services for Homes & Businesses | Hannah Care",
-        "description": "Electrical repairs, fault finding, lighting, sockets, rewiring and circuit breaker services for residential and commercial properties. Available 24/7."
+        "description": "Electrical repairs, fault finding, lighting, sockets, rewiring and circuit breaker services for residential and commercial properties, Monday to Saturday."
       },
       "serviceDefault": "Electrical Repairs & Fault Finding",
       "hero": {
         "eyebrow": "Electrical Services",
         "headline": "Safe, reliable electrical work.",
         "subheadline": "From tripping breakers to full rewiring, our certified electricians keep your home or business powered safely.",
-        "bullets": ["Same-day service", "Available 24/7", "Certified in-house electricians"],
+        "bullets": ["Same-day service", "Mon–Sat · 9:00 AM–6:00 PM", "Certified in-house electricians"],
         "image": { "src": "/images/electrical-hero.jpg", "alt": "Electrician working on a distribution board", "ratio": "4:5", "brief": "Electrician in uniform testing a distribution board, clean modern setting." }
       },
       "intro": {
@@ -445,14 +451,14 @@
         "items": [
           { "q": "Why does my circuit breaker keep tripping?", "a": "It can be caused by overload, a faulty appliance or a wiring fault. Our electrician will trace the cause and fix it safely." },
           { "q": "Can you handle commercial electrical work?", "a": "Yes. We work in homes, offices, shops and other commercial properties." },
-          { "q": "Do you offer emergency electrical service?", "a": "We are available 24/7. Call or WhatsApp us and we will respond as quickly as possible." },
+          { "q": "How quickly can you attend an electrical issue?", "a": "We offer same-day service where availability allows. Call or WhatsApp us Monday to Saturday, from 9:00 AM to 6:00 PM, and we will respond as quickly as possible." },
           { "q": "Can you rewire an older property?", "a": "Yes. We carry out full and partial rewiring for domestic and commercial properties." },
           { "q": "Will you explain the cost before starting?", "a": "Always. We explain the scope and price clearly before any work begins." }
         ]
       },
       "finalCta": {
         "title": "Electrical problem? Call us now.",
-        "text": "Call, WhatsApp or request a quote. We are available 24/7."
+        "text": "Call, WhatsApp or request a quote Monday to Saturday, from 9:00 AM to 6:00 PM."
       }
     },
 
@@ -460,14 +466,14 @@
       "slug": "/plumbing-services",
       "seo": {
         "title": "Plumbing Services: Leaks, Drains, Water Heaters | Hannah Care",
-        "description": "Drain unclogging, water heater and pump repair, leak repair, water tank cleaning and plumbing installation for homes and businesses. Available 24/7."
+        "description": "Drain unclogging, water heater and pump repair, leak repair, water tank cleaning and plumbing installation for homes and businesses, Monday to Saturday."
       },
       "serviceDefault": "Drain Cleaning & Unclogging",
       "hero": {
         "eyebrow": "Plumbing Services",
         "headline": "Leaks, blockages and breakdowns, fixed fast.",
         "subheadline": "Reliable plumbing for homes and commercial properties, from urgent repairs to full installations.",
-        "bullets": ["Same-day service", "Available 24/7", "One-visit fixes"],
+        "bullets": ["Same-day service", "Mon–Sat · 9:00 AM–6:00 PM", "One-visit fixes"],
         "image": { "src": "/images/plumbing-hero.jpg", "alt": "Plumber repairing a pipe", "ratio": "4:5", "brief": "Plumber in uniform repairing a sink pipe in a clean kitchen." }
       },
       "intro": {
@@ -530,7 +536,7 @@
       "faq": {
         "title": "Plumbing questions, answered",
         "items": [
-          { "q": "How quickly can you fix a leak?", "a": "We offer same-day service and are available 24/7. Call or WhatsApp us for the fastest response." },
+          { "q": "How quickly can you fix a leak?", "a": "We offer same-day service where availability allows. Call or WhatsApp us Monday to Saturday, from 9:00 AM to 6:00 PM, for the fastest response." },
           { "q": "Can you clear a blocked toilet or drain?", "a": "Yes. We clear blocked sinks, basins, floor drains and toilets." },
           { "q": "Do you repair and replace water heaters?", "a": "Yes. We diagnose and repair water heaters, and replace them when needed." },
           { "q": "Do you clean water tanks for buildings?", "a": "We clean residential water tanks and also commercial or building tanks, subject to site access and requirements." },
@@ -539,7 +545,7 @@
       },
       "finalCta": {
         "title": "Plumbing trouble? Let us sort it out.",
-        "text": "Call, WhatsApp or request a quote. We are available 24/7."
+        "text": "Call, WhatsApp or request a quote Monday to Saturday, from 9:00 AM to 6:00 PM."
       }
     }
   }
