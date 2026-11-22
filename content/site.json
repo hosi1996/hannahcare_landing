@@ -13,6 +13,7 @@
       "phoneDisplay": "056 373 4604",
       "phoneTel": "+971563734604",
       "whatsappNumber": "971563734604",
+      "address": "Office 204, AL Wasl Building R146, Al Maktoum Hospital Road, Baniyas Square, Deira, Dubai",
       "whatsappPrefill": "Hello Hannah Care, I would like to enquire about {service}.",
       "email": "[info@hannahcare.example]",
       "hours": "Monday–Saturday, 9:00 AM–6:00 PM"
@@ -106,7 +107,7 @@
         "options": ["Residential", "Commercial"]
       },
       "service": {
-        "label": "Service needed",
+        "label": "Service required",
         "required": true,
         "options": [
           "AC Repair Service",

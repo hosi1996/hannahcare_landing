@@ -28,6 +28,7 @@ Phone link value: +971563734604
 WhatsApp number: 971563734604
 WhatsApp opening message: Hello Hannah Care, I would like to enquire about {service}.
 Email: [info@hannahcare.example]
+Address: Office 204, AL Wasl Building R146, Al Maktoum Hospital Road, Baniyas Square, Deira, Dubai
 Opening hours: Monday–Saturday, 9:00 AM–6:00 PM
 
 --- Temporarily disabled services — content kept for reactivation ---
@@ -80,7 +81,7 @@ Field 1 label: Full name
 Field 2 label: Phone / WhatsApp number
 Field 3 label: Property type
 Field 3 options: Residential | Commercial
-Field 4 label: Service needed
+Field 4 label: Service required
 Field 4 options: AC Repair Service | AC Maintenance Service | AC Duct Cleaning | Full AC System Cleaning | AC Coil Cleaning | Annual Maintenance Contract (AMC) | AC Installation | Insulation | Electrical Repairs & Fault Finding | Lighting Installation | Switches, Sockets & Transformers | Rewiring | Home Entertainment Setup | Special Lighting & Feature Installations | Circuit Breaker Repair & Load Balancing | Drain Cleaning & Unclogging | Water Heater Repair | Water Pump Repair & Replacement | Leak Repair | Water Tank Cleaning | Plumbing Installation | Other / Not sure
 Field 5 label: Area / building (optional)
 Field 6 label: Anything we should know? (optional)
