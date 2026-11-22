@@ -23,9 +23,9 @@ Link 3: Plumbing — https://hannahcare.ae/plumbing-services
 Link 4: Electrical — https://hannahcare.ae/electrical-services
 
 --- Contact information ---
-Phone shown on site: [+971 XX XXX XXXX]
-Phone link value: [+971XXXXXXXXX]
-WhatsApp number: [971XXXXXXXXX]
+Phone shown on site: 056 373 4604
+Phone link value: +971563734604
+WhatsApp number: 971563734604
 WhatsApp opening message: Hello Hannah Care, I would like to enquire about {service}.
 Email: [info@hannahcare.example]
 Opening hours: Monday–Saturday, 9:00 AM–6:00 PM
@@ -93,7 +93,7 @@ General error text: Something went wrong. Please call or WhatsApp us and we will
 Validation summary: Please correct the highlighted fields before sending your request.
 Name error: Please enter your full name (at least 2 characters).
 Missing phone error: Please enter your phone or WhatsApp number.
-Invalid phone error: Enter a valid UAE number, for example +971 50 123 4567.
+Invalid phone error: Enter a valid phone number. Include the country code if outside the UAE.
 Property type error: Please choose residential or commercial.
 Service error: Please choose the service you need.
 Area length error: Area or building must be 120 characters or fewer.

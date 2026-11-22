@@ -10,9 +10,9 @@
     "serviceArea": "[CONFIRM: city / emirate / areas covered]",
     "tradeLicence": "[CONFIRM: trade licence no. and issuing authority]",
     "contact": {
-      "phoneDisplay": "[+971 XX XXX XXXX]",
-      "phoneTel": "[+971XXXXXXXXX]",
-      "whatsappNumber": "[971XXXXXXXXX]",
+      "phoneDisplay": "056 373 4604",
+      "phoneTel": "+971563734604",
+      "whatsappNumber": "971563734604",
       "whatsappPrefill": "Hello Hannah Care, I would like to enquire about {service}.",
       "email": "[info@hannahcare.example]",
       "hours": "Monday–Saturday, 9:00 AM–6:00 PM"

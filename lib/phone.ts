@@ -1,19 +1,12 @@
 const allowedPhoneCharacters = /^\+?[\d\s()-]+$/;
 
-export function isValidUaePhone(value: string) {
+export function isValidPhoneNumber(value: string) {
   const phone = value.trim();
   if (!allowedPhoneCharacters.test(phone)) return false;
 
   const digits = phone.replace(/\D/g, '');
-  const local = phone.startsWith('+')
-    ? digits.startsWith('971') ? digits.slice(3) : ''
-    : digits.startsWith('00971')
-      ? digits.slice(5)
-      : digits.startsWith('971')
-        ? digits.slice(3)
-        : digits.startsWith('0')
-          ? digits.slice(1)
-          : '';
+  if (phone.startsWith('+')) return /^[1-9]\d{9,14}$/.test(digits);
+  if (digits.startsWith('00')) return /^00[1-9]\d{9,14}$/.test(digits);
 
-  return /^(?:5\d{8}|[2-9]\d{7})$/.test(local);
+  return /^0\d{8,10}$/.test(digits);
 }
