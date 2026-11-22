@@ -37,19 +37,19 @@ Internal note: Insulation is temporarily unavailable while the team recruits a n
 
 --- CTA labels ---
 Call button: Call Now
-WhatsApp button: WhatsApp Us
-Quote button: Get My Free Quote
-Form submit button: Send My Quote Request
+WhatsApp button: Chat on WhatsApp
+Quote button: Get a Free Quote
+Form submit button: Submit My Quote Request
 
 --- Common interface labels ---
 Service navigation heading: Find your service
-Service navigation text: Choose what you need and get there directly.
+Service navigation text: Choose the service you need and go straight to the details.
 Service card link: Explore service
 Featured service badge: Specialist service
 Final CTA eyebrow: Need a hand?
-Mobile sticky button 1: Call
-Mobile sticky button 2: WhatsApp
-Mobile sticky button 3: Free Quote
+Mobile sticky button 1: Call Now
+Mobile sticky button 2: Chat on WhatsApp
+Mobile sticky button 3: Get a Free Quote
 
 --- Trust strip ---
 Trust item 1: [X.X] stars on Google · [YYY]+ reviews
@@ -93,7 +93,7 @@ General error text: Something went wrong. Please call or WhatsApp us and we will
 Validation summary: Please correct the highlighted fields before sending your request.
 Name error: Please enter your full name (at least 2 characters).
 Missing phone error: Please enter your phone or WhatsApp number.
-Invalid phone error: Enter a valid phone number with at least 7 digits.
+Invalid phone error: Enter a valid UAE number, for example +971 50 123 4567.
 Property type error: Please choose residential or commercial.
 Service error: Please choose the service you need.
 Area length error: Area or building must be 120 characters or fewer.
@@ -120,12 +120,12 @@ Bullet points:
 Image file: /images/technician-customer-consultation.jpg
 Image alt text: Hannah Care technician discussing a maintenance job with a customer
 Primary CTA: Call Now
-WhatsApp CTA: WhatsApp Us
-Quote CTA: Get My Free Quote
+WhatsApp CTA: Chat on WhatsApp
+Quote CTA: Get a Free Quote
 
 --- Services overview ---
 Eyebrow: What we do
-Heading: Four services. One reliable team.
+Heading: Three services. One reliable team.
 Intro: From a unit that has stopped cooling to a faulty circuit or a leaking pipe, Hannah Care keeps your home or business comfortable and running.
 
 Card 1 title: AC Repair & Maintenance
@@ -158,7 +158,7 @@ Link label: Explore service
 
 --- Spotlight ---
 Eyebrow: Specialist service
-Heading: AC Duct Cleaning that you can actually breathe easier about.
+Heading: Breathe Easier with Professional AC Duct Cleaning
 Text: Dust, debris and buildup collect inside ductwork over time, which can reduce airflow and make your AC work harder. Our team cleans supply and return ducts, vents, grilles and diffusers for apartments, villas, offices and commercial spaces, with before-and-after checks where required.
 Bullet points: 
 - Supply & return duct cleaning
@@ -200,9 +200,9 @@ Option 2 button: Commercial AMC
 Option 2 text: For offices, shops and commercial properties.
 
 --- Testimonials ---
+Display status: Hidden until verified customer reviews are supplied
 Eyebrow: Customer experiences
 Heading: What our customers say
-Internal preview note: Preview content — replace with verified customer reviews before advertising.
 Review 1 name: Villa owner
 Review 1 location: Dubai
 Review 1 service: AC maintenance
@@ -250,7 +250,7 @@ Answer 5: Yes. We offer Annual Maintenance Contracts for both residential and co
 --- Final CTA ---
 Heading: Need help today? We are one message away.
 Text: Call, WhatsApp or send a request. Our team is ready to help.
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 ==============================================================================
 AC REPAIR & MAINTENANCE PAGE
@@ -273,8 +273,8 @@ Bullet points:
 Image file: /images/split-ac-filter-removal.jpg
 Image alt text: Technician removing filters from a split AC unit
 Primary CTA: Call Now
-WhatsApp CTA: WhatsApp Us
-Quote CTA: Get My Free Quote
+WhatsApp CTA: Chat on WhatsApp
+Quote CTA: Get a Free Quote
 
 --- Introduction ---
 Heading: Everything your AC needs, under one roof.
@@ -292,7 +292,7 @@ Service bullet points:
 - Capacitor, contactor & fan motor replacement
 Image file: /images/ac-refrigerant-diagnostics.jpg
 Image alt text: Technician diagnosing an outdoor AC unit with refrigerant gauges
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 2 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-maintenance
 Service title: AC Maintenance Service
@@ -304,7 +304,7 @@ Service bullet points:
 - Split, FCU & package units
 Image file: /images/ac-filter-washing.jpg
 Image alt text: Technician washing a reusable AC filter
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 3 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-duct-cleaning
 Service title: AC Duct Cleaning
@@ -317,7 +317,7 @@ Service bullet points:
 - Periodic cleaning plans available
 Image file: /images/ceiling-ac-duct-cleaning.jpg
 Image alt text: Technician cleaning a ceiling AC duct
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 4 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-full-cleaning
 Service title: Full AC System Cleaning
@@ -329,7 +329,7 @@ Service bullet points:
 - Performance test after service
 Image file: /images/deep-ac-cleaning.jpg
 Image alt text: Technician deep cleaning an indoor split AC unit
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 5 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-coil-cleaning
 Service title: AC Coil Cleaning
@@ -341,7 +341,7 @@ Service bullet points:
 - Split, FCU & package units
 Image file: /images/outdoor-ac-coil-cleaning.jpg
 Image alt text: Outdoor AC condenser coil being cleaned
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 6 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-amc
 Service title: Annual Maintenance Contract
@@ -353,19 +353,19 @@ Service bullet points:
 - Priority response depending on package
 Image file: /images/maintenance-technician-tablet.jpg
 Image alt text: Hannah Care technician reviewing a maintenance checklist on a tablet
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 7 anchor URL: https://hannahcare.ae/ac-repair-maintenance#ac-installation
 Service title: AC Installation
 Service text: Professional installation and replacement of AC units, completed neatly and tested before we leave.
 Service bullet points: 
 - Split AC installation (indoor & outdoor units)
-- Replacement of old units with new
+- Replacement of old units with new ones
 - Copper piping & drain-pipe works
 - Electrical connection and testing
 Image file: /images/split-ac-installation.jpg
 Image alt text: Two technicians installing a split AC unit
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 8 anchor URL: https://hannahcare.ae/ac-repair-maintenance#insulation
 Service title: Insulation
@@ -377,7 +377,7 @@ Service bullet points:
 - Clean, tidy finish
 Image file: /images/ac-insulation.jpg
 Image alt text: Insulated AC pipes
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 --- Process section ---
 Eyebrow: What to expect
@@ -406,8 +406,8 @@ Answer 5: Yes. We offer both residential and commercial Annual Maintenance Contr
 
 --- Final CTA ---
 Heading: Get your AC running right again.
-Text: Call, WhatsApp or request a free quote, our team is ready.
-Button: Get My Free Quote
+Text: Call, WhatsApp or request a free quote. Our team is ready to help.
+Button: Get a Free Quote
 
 ==============================================================================
 ELECTRICAL SERVICES PAGE
@@ -430,8 +430,8 @@ Bullet points:
 Image file: /images/electrical-panel-inspection.jpg
 Image alt text: Electrician inspecting a residential distribution board
 Primary CTA: Call Now
-WhatsApp CTA: WhatsApp Us
-Quote CTA: Get My Free Quote
+WhatsApp CTA: Chat on WhatsApp
+Quote CTA: Get a Free Quote
 
 --- Introduction ---
 Heading: Electrical work you can trust.
@@ -448,7 +448,7 @@ Service bullet points:
 - Replacement of damaged accessories
 Image file: /images/electrical-socket-repair.jpg
 Image alt text: Electrician repairing wiring inside a wall socket
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 2 anchor URL: https://hannahcare.ae/electrical-services#lighting
 Service title: Indoor & Outdoor Lighting Installation
@@ -459,7 +459,7 @@ Service bullet points:
 - Ceiling and exhaust fan installation
 Image file: /images/ceiling-light-installation.jpg
 Image alt text: Technician installing a ceiling light
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 3 anchor URL: https://hannahcare.ae/electrical-services#switches-sockets
 Service title: Switches, Sockets & Transformer Installation
@@ -470,7 +470,7 @@ Service bullet points:
 - Appliance and equipment connections
 Image file: /images/power-socket-installation.jpg
 Image alt text: Electrician installing a power socket
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 4 anchor URL: https://hannahcare.ae/electrical-services#rewiring
 Service title: Domestic & Commercial Rewiring
@@ -481,7 +481,7 @@ Service bullet points:
 - Tested and handed over cleanly
 Image file: /images/electrical-panel-repair.jpg
 Image alt text: Electrician working on distribution board wiring
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 5 anchor URL: https://hannahcare.ae/electrical-services#home-entertainment
 Service title: Home Entertainment System Setup
@@ -492,7 +492,7 @@ Service bullet points:
 - Power and connection setup
 Image file: /images/home-entertainment-installation.jpg
 Image alt text: Technician installing a soundbar beneath a television
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 6 anchor URL: https://hannahcare.ae/electrical-services#special-lighting
 Service title: Special Lighting & Feature Installations
@@ -503,7 +503,7 @@ Service bullet points:
 - Careful, clean finishing
 Image file: /images/feature-lighting-interior.jpg
 Image alt text: Modern dining room with installed feature lighting
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 7 anchor URL: https://hannahcare.ae/electrical-services#circuit-breakers
 Service title: Circuit Breaker Repair & Load Balancing
@@ -514,7 +514,7 @@ Service bullet points:
 - Load balancing
 Image file: /images/circuit-breaker-maintenance.jpg
 Image alt text: Electrician maintaining circuit breakers in a distribution board
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 --- Process section ---
 Eyebrow: What to expect
@@ -544,7 +544,7 @@ Answer 5: Always. We explain the scope and price clearly before any work begins.
 --- Final CTA ---
 Heading: Electrical problem? Call us now.
 Text: Call, WhatsApp or request a quote Monday to Saturday, from 9:00 AM to 6:00 PM.
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 ==============================================================================
 PLUMBING SERVICES PAGE
@@ -567,8 +567,8 @@ Bullet points:
 Image file: /images/sink-drain-repair.jpg
 Image alt text: Plumber repairing a sink drain connection
 Primary CTA: Call Now
-WhatsApp CTA: WhatsApp Us
-Quote CTA: Get My Free Quote
+WhatsApp CTA: Chat on WhatsApp
+Quote CTA: Get a Free Quote
 
 --- Introduction ---
 Heading: Plumbing done right, the first time.
@@ -585,7 +585,7 @@ Service bullet points:
 - Fast, clean service
 Image file: /images/drain-unclogging-machine.jpg
 Image alt text: Technician clearing a blocked bathroom drain
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 2 anchor URL: https://hannahcare.ae/plumbing-services#water-heater
 Service title: Water Heater Repair
@@ -596,7 +596,7 @@ Service bullet points:
 - Residential and commercial
 Image file: /images/water-heater-repair.jpg
 Image alt text: Technician repairing a wall-mounted water heater
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 3 anchor URL: https://hannahcare.ae/plumbing-services#water-pump
 Service title: Water Pump Repair & Replacement
@@ -607,7 +607,7 @@ Service bullet points:
 - Related plumbing works
 Image file: /images/water-pump-inspection.jpg
 Image alt text: Technician inspecting a residential water pump
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 4 anchor URL: https://hannahcare.ae/plumbing-services#leak-repair
 Service title: Repairing Leaks
@@ -618,7 +618,7 @@ Service bullet points:
 - Hose and angle-valve replacement
 Image file: /images/under-sink-pipe-repair.jpg
 Image alt text: Plumber repairing leaking pipework beneath a sink
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 5 anchor URL: https://hannahcare.ae/plumbing-services#tank-cleaning
 Service title: Water Tank Cleaning
@@ -630,7 +630,7 @@ Service bullet points:
 - Residential & commercial tanks (subject to site access)
 Image file: /images/water-tank-cleaning.jpg
 Image alt text: Technician cleaning the inside of a water tank
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 Service 6 anchor URL: https://hannahcare.ae/plumbing-services#plumbing-installation
 Service title: Plumbing Installation Services
@@ -641,7 +641,7 @@ Service bullet points:
 - Kitchen and bathroom connections
 Image file: /images/tap-repair.jpg
 Image alt text: Plumber installing and adjusting a basin tap
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 --- Process section ---
 Eyebrow: What to expect
@@ -671,7 +671,7 @@ Answer 5: Yes. We explain the scope and cost clearly before any work begins.
 --- Final CTA ---
 Heading: Plumbing trouble? Let us sort it out.
 Text: Call, WhatsApp or request a quote Monday to Saturday, from 9:00 AM to 6:00 PM.
-Button: Get My Free Quote
+Button: Get a Free Quote
 
 ==============================================================================
 SYSTEM MESSAGES

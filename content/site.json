@@ -71,9 +71,9 @@
 
   "cta": {
     "call": "Call Now",
-    "whatsapp": "WhatsApp Us",
-    "quote": "Get My Free Quote",
-    "submit": "Send My Quote Request",
+    "whatsapp": "Chat on WhatsApp",
+    "quote": "Get a Free Quote",
+    "submit": "Submit My Quote Request",
     "stickyBar": true
   },
 
@@ -159,7 +159,7 @@
       },
       "servicesSection": {
         "eyebrow": "What we do",
-        "title": "Four services. One reliable team.",
+        "title": "Three services. One reliable team.",
         "intro": "From a unit that has stopped cooling to a faulty circuit or a leaking pipe, Hannah Care keeps your home or business comfortable and running.",
         "cards": [
           {
@@ -194,7 +194,7 @@
       },
       "spotlight": {
         "eyebrow": "Specialist service",
-        "title": "AC Duct Cleaning that you can actually breathe easier about.",
+        "title": "Breathe Easier with Professional AC Duct Cleaning",
         "text": "Dust, debris and buildup collect inside ductwork over time, which can reduce airflow and make your AC work harder. Our team cleans supply and return ducts, vents, grilles and diffusers for apartments, villas, offices and commercial spaces, with before-and-after checks where required.",
         "bullets": [
           "Supply & return duct cleaning",
@@ -239,10 +239,9 @@
         ]
       },
       "reviewsSection": {
-        "enabled": true,
+        "enabled": false,
         "eyebrow": "Customer experiences",
         "title": "What our customers say",
-        "note": "Preview content — replace with verified customer reviews before advertising.",
         "items": [
           { "name": "Villa owner", "location": "Dubai", "service": "AC maintenance", "text": "The team arrived on time, explained what the AC needed and completed the service neatly. The cooling difference was noticeable straight away.", "rating": 5, "source": "Sample review" },
           { "name": "Apartment resident", "location": "Dubai", "service": "Plumbing repair", "text": "Quick response, clear communication and a tidy repair. The technician found the cause of the leak and made sure everything was working before leaving.", "rating": 5, "source": "Sample review" },
@@ -332,7 +331,7 @@
           "id": "ac-installation",
           "title": "AC Installation",
           "text": "Professional installation and replacement of AC units, completed neatly and tested before we leave.",
-          "bullets": ["Split AC installation (indoor & outdoor units)", "Replacement of old units with new", "Copper piping & drain-pipe works", "Electrical connection and testing"],
+          "bullets": ["Split AC installation (indoor & outdoor units)", "Replacement of old units with new ones", "Copper piping & drain-pipe works", "Electrical connection and testing"],
           "image": { "src": "/images/split-ac-installation.jpg", "alt": "Two technicians installing a split AC unit", "ratio": "4:3", "brief": "Two technicians carefully mounting a split AC unit in a residential room." }
         },
         {
@@ -364,7 +363,7 @@
       },
       "finalCta": {
         "title": "Get your AC running right again.",
-        "text": "Call, WhatsApp or request a free quote, our team is ready."
+        "text": "Call, WhatsApp or request a free quote. Our team is ready to help."
       }
     },
 
