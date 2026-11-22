@@ -155,7 +155,7 @@
         "headline": "Care for every corner of your property.",
         "subheadline": "AC, plumbing and electrical specialists, one trusted team. Fast response, clear pricing and fixes done right, often in a single visit.",
         "bullets": ["Same-day service", "Mon–Sat · 9:00 AM–6:00 PM", "In-house certified technicians"],
-        "image": { "src": "/images/home-hero.jpg", "alt": "Hannah Care technician servicing a home", "ratio": "4:5", "brief": "Warm, natural-light photo of a friendly technician in an olive/neutral uniform inside a bright modern living room, with an AC unit visible. Real, not stock-looking." }
+        "image": { "src": "/images/technician-customer-consultation.jpg", "alt": "Hannah Care technician discussing a maintenance job with a customer", "ratio": "4:5", "brief": "Technician reviewing maintenance details with a customer in a modern property." }
       },
       "servicesSection": {
         "eyebrow": "What we do",
@@ -167,21 +167,21 @@
             "title": "AC Repair & Maintenance",
             "text": "Repair, servicing, duct and coil cleaning, installation and annual contracts for every type of AC system.",
             "link": "/ac-repair-maintenance",
-            "image": { "src": "/images/card-ac.jpg", "alt": "Technician servicing an AC unit", "ratio": "4:3", "brief": "Close-up of a technician servicing a split AC indoor unit." }
+            "image": { "src": "/images/ac-filter-service-technician.jpg", "alt": "Hannah Care technician holding a cleaned AC filter", "ratio": "4:3", "brief": "Technician presenting an AC filter after servicing a split unit." }
           },
           {
             "id": "plumbing",
             "title": "Plumbing Services",
             "text": "Leak repair, drain unclogging, water heaters, pumps, tank cleaning and full plumbing installation.",
             "link": "/plumbing-services",
-            "image": { "src": "/images/card-plumbing.jpg", "alt": "Plumber repairing a pipe under a sink", "ratio": "4:3", "brief": "Plumber fixing a kitchen or bathroom pipe, clean and tidy workspace." }
+            "image": { "src": "/images/under-sink-pipe-repair.jpg", "alt": "Plumber repairing pipework beneath a sink", "ratio": "4:3", "brief": "Technician repairing clean pipework beneath a residential sink." }
           },
           {
             "id": "electrical",
             "title": "Electrical Services",
             "text": "Fault finding, lighting, sockets, rewiring, circuit breakers and safe installations for homes and businesses.",
             "link": "/electrical-services",
-            "image": { "src": "/images/card-electrical.jpg", "alt": "Electrician working on a distribution board", "ratio": "4:3", "brief": "Electrician testing a distribution board with a meter." }
+            "image": { "src": "/images/electrical-socket-repair.jpg", "alt": "Electrician repairing a wall socket", "ratio": "4:3", "brief": "Technician safely repairing wiring inside a residential wall socket." }
           },
           {
             "id": "insulation",
@@ -203,7 +203,7 @@
           "Periodic plans for homes and businesses"
         ],
         "cta": { "label": "Book Duct Cleaning", "prefillService": "AC Duct Cleaning" },
-        "image": { "src": "/images/spotlight-duct.jpg", "alt": "Technician cleaning an AC air duct", "ratio": "5:4", "brief": "Before/after style or technician cleaning a duct vent with professional equipment." }
+        "image": { "src": "/images/ac-duct-vacuum-cleaning.jpg", "alt": "Technician vacuum cleaning an AC duct vent", "ratio": "5:4", "brief": "Technician using professional extraction equipment to clean an AC duct vent." }
       },
       "whySection": {
         "eyebrow": "Why Hannah Care",
@@ -277,7 +277,7 @@
         "headline": "Cool, clean air back, fast.",
         "subheadline": "Expert repair, servicing, cleaning and installation for split, FCU and package AC units in homes and commercial properties.",
         "bullets": ["Same-day service", "Mon–Sat · 9:00 AM–6:00 PM", "One-visit fixes"],
-        "image": { "src": "/images/ac-hero.jpg", "alt": "Technician repairing a split AC unit", "ratio": "4:5", "brief": "Technician servicing an AC unit in a bright room, natural light." }
+        "image": { "src": "/images/split-ac-filter-removal.jpg", "alt": "Technician removing filters from a split AC unit", "ratio": "4:5", "brief": "Technician servicing a split AC unit in a bright residential room." }
       },
       "intro": {
         "title": "Everything your AC needs, under one roof.",
@@ -289,14 +289,14 @@
           "title": "AC Repair Service",
           "text": "AC not cooling, weak airflow, strange noises or water leaking? We find the root cause and repair it, often in a single visit.",
           "bullets": ["Poor cooling diagnosis & repair", "Water leakage & drain-line blockage", "Thermostat troubleshooting & replacement", "Capacitor, contactor & fan motor replacement"],
-          "image": { "src": "/images/ac-repair.jpg", "alt": "Technician diagnosing an AC fault", "ratio": "4:3", "brief": "Technician checking an AC unit with a gauge." }
+          "image": { "src": "/images/ac-refrigerant-diagnostics.jpg", "alt": "Technician diagnosing an outdoor AC unit with refrigerant gauges", "ratio": "4:3", "brief": "Technician checking AC pressure and refrigerant performance with professional gauges." }
         },
         {
           "id": "ac-maintenance",
           "title": "AC Maintenance Service",
           "text": "Regular servicing keeps your AC efficient and helps prevent costly breakdowns, especially before the hot season.",
           "bullets": ["Routine servicing & preventive checks", "Filter cleaning & replacement", "Performance and safety checks", "Split, FCU & package units"],
-          "image": { "src": "/images/ac-maintenance.jpg", "alt": "Technician servicing an AC filter", "ratio": "4:3", "brief": "Technician cleaning an AC filter." }
+          "image": { "src": "/images/ac-filter-washing.jpg", "alt": "Technician washing a reusable AC filter", "ratio": "4:3", "brief": "Technician carefully washing an AC filter during routine maintenance." }
         },
         {
           "id": "ac-duct-cleaning",
@@ -304,28 +304,28 @@
           "featured": true,
           "text": "Our specialist duct cleaning removes dust, debris and accumulated contaminants from accessible ductwork, helping air flow freely and your space feel fresher.",
           "bullets": ["Supply & return duct cleaning", "Vents, grilles & diffusers", "Before-and-after inspection photos where required", "Apartments, villas, offices & commercial premises", "Periodic cleaning plans available"],
-          "image": { "src": "/images/ac-duct.jpg", "alt": "AC duct cleaning in progress", "ratio": "4:3", "brief": "Duct cleaning equipment in use, clear before/after feel." }
+          "image": { "src": "/images/ceiling-ac-duct-cleaning.jpg", "alt": "Technician cleaning a ceiling AC duct", "ratio": "4:3", "brief": "Professional vacuum equipment cleaning a ceiling AC duct and vent." }
         },
         {
           "id": "ac-full-cleaning",
           "title": "Full AC System Cleaning",
           "text": "A thorough clean of your complete AC system, indoor and outdoor, to restore airflow, efficiency and cooling.",
           "bullets": ["Indoor unit cleaning", "Outdoor unit cleaning", "Drain line check and clearing", "Performance test after service"],
-          "image": { "src": "/images/ac-full-cleaning.jpg", "alt": "Cleaning an AC indoor unit", "ratio": "4:3", "brief": "Technician deep cleaning an indoor split unit." }
+          "image": { "src": "/images/deep-ac-cleaning.jpg", "alt": "Technician deep cleaning an indoor split AC unit", "ratio": "4:3", "brief": "Split AC unit protected with a wash bag while the internal system is deep cleaned." }
         },
         {
           "id": "ac-coil-cleaning",
           "title": "AC Coil Cleaning",
           "text": "Dirty coils force your AC to work harder. We clean evaporator and condenser coils so your unit cools better and runs more efficiently.",
           "bullets": ["Evaporator coil cleaning", "Condenser coil cleaning", "Improved cooling and airflow", "Split, FCU & package units"],
-          "image": { "src": "/images/ac-coil.jpg", "alt": "AC condenser coil being cleaned", "ratio": "4:3", "brief": "Condenser coil being washed." }
+          "image": { "src": "/images/outdoor-ac-coil-cleaning.jpg", "alt": "Outdoor AC condenser coil being cleaned", "ratio": "4:3", "brief": "Close-up of an outdoor condenser coil being washed with a professional sprayer." }
         },
         {
           "id": "ac-amc",
           "title": "Annual Maintenance Contract",
           "text": "Scheduled servicing and routine checks all year round, with visit frequency and scope tailored to your property.",
           "bullets": ["Residential AMC for apartments & villas", "Commercial AMC for offices & shops", "Scheduled preventive maintenance", "Priority response depending on package"],
-          "image": { "src": "/images/ac-amc.jpg", "alt": "Technician with a maintenance checklist", "ratio": "4:3", "brief": "Technician with a clipboard/tablet in an office." },
+          "image": { "src": "/images/maintenance-technician-tablet.jpg", "alt": "Hannah Care technician reviewing a maintenance checklist on a tablet", "ratio": "4:3", "brief": "Uniformed technician documenting scheduled maintenance on a tablet." },
           "prefillService": "Annual Maintenance Contract (AMC)"
         },
         {
@@ -333,7 +333,7 @@
           "title": "AC Installation",
           "text": "Professional installation and replacement of AC units, completed neatly and tested before we leave.",
           "bullets": ["Split AC installation (indoor & outdoor units)", "Replacement of old units with new", "Copper piping & drain-pipe works", "Electrical connection and testing"],
-          "image": { "src": "/images/ac-installation.jpg", "alt": "Technicians installing a split AC", "ratio": "4:3", "brief": "Two technicians mounting a new split AC." }
+          "image": { "src": "/images/split-ac-installation.jpg", "alt": "Two technicians installing a split AC unit", "ratio": "4:3", "brief": "Two technicians carefully mounting a split AC unit in a residential room." }
         },
         {
           "id": "insulation",
@@ -380,7 +380,7 @@
         "headline": "Safe, reliable electrical work.",
         "subheadline": "From tripping breakers to full rewiring, our certified electricians keep your home or business powered safely.",
         "bullets": ["Same-day service", "Mon–Sat · 9:00 AM–6:00 PM", "Certified in-house electricians"],
-        "image": { "src": "/images/electrical-hero.jpg", "alt": "Electrician working on a distribution board", "ratio": "4:5", "brief": "Electrician in uniform testing a distribution board, clean modern setting." }
+        "image": { "src": "/images/electrical-panel-inspection.jpg", "alt": "Electrician inspecting a residential distribution board", "ratio": "4:5", "brief": "Uniformed electrician inspecting a modern residential electrical panel." }
       },
       "intro": {
         "title": "Electrical work you can trust.",
@@ -392,49 +392,49 @@
           "title": "Electrical Repairs & Fault Finding",
           "text": "Tripping circuits, loose connections or power that has gone out? We trace the fault and fix it properly.",
           "bullets": ["Fault finding & troubleshooting", "Tripping & loose connection repair", "Replacement of damaged accessories"],
-          "image": { "src": "/images/elec-repairs.jpg", "alt": "Electrician testing wiring", "ratio": "4:3", "brief": "Electrician using a multimeter." }
+          "image": { "src": "/images/electrical-socket-repair.jpg", "alt": "Electrician repairing wiring inside a wall socket", "ratio": "4:3", "brief": "Technician diagnosing and repairing a residential electrical socket." }
         },
         {
           "id": "lighting",
           "title": "Indoor & Outdoor Lighting Installation",
           "text": "Light fittings installed and replaced for every room and outdoor space, for brighter, safer, better-looking property.",
           "bullets": ["Indoor light fittings", "Outdoor & garden lighting", "Ceiling and exhaust fan installation"],
-          "image": { "src": "/images/elec-lighting.jpg", "alt": "Installing a ceiling light", "ratio": "4:3", "brief": "Technician fitting a ceiling light in a lounge." }
+          "image": { "src": "/images/ceiling-light-installation.jpg", "alt": "Technician installing a ceiling light", "ratio": "4:3", "brief": "Technician fitting a ceiling light fixture in a modern living room." }
         },
         {
           "id": "switches-sockets",
           "title": "Switches, Sockets & Transformer Installation",
           "text": "New or replacement switches, sockets and transformers fitted safely and tested.",
           "bullets": ["Switch & socket installation / replacement", "Transformer installation", "Appliance and equipment connections"],
-          "image": { "src": "/images/elec-sockets.jpg", "alt": "Replacing a wall socket", "ratio": "4:3", "brief": "Hands replacing a wall socket." }
+          "image": { "src": "/images/power-socket-installation.jpg", "alt": "Electrician installing a power socket", "ratio": "4:3", "brief": "Close-up of a new wall power socket being installed safely." }
         },
         {
           "id": "rewiring",
           "title": "Domestic & Commercial Rewiring",
           "text": "Safe, tidy rewiring for homes, offices and shops, whether you are updating an older installation or renovating.",
           "bullets": ["Full and partial rewiring", "Homes, offices & shops", "Tested and handed over cleanly"],
-          "image": { "src": "/images/elec-rewiring.jpg", "alt": "Electrician rewiring a property", "ratio": "4:3", "brief": "Neat cable routing during rewiring." }
+          "image": { "src": "/images/electrical-panel-repair.jpg", "alt": "Electrician working on distribution board wiring", "ratio": "4:3", "brief": "Technician checking and organising wiring inside a residential distribution board." }
         },
         {
           "id": "home-entertainment",
           "title": "Home Entertainment System Setup",
           "text": "Clean, professional wiring and setup for TVs, sound systems and home entertainment, with tidy cable management.",
           "bullets": ["TV and sound system wiring", "Neat cable concealment", "Power and connection setup"],
-          "image": { "src": "/images/elec-entertainment.jpg", "alt": "Home cinema setup", "ratio": "4:3", "brief": "Neat TV wall setup with concealed cables." }
+          "image": { "src": "/images/home-entertainment-installation.jpg", "alt": "Technician installing a soundbar beneath a television", "ratio": "4:3", "brief": "Technician aligning and installing home entertainment equipment in a living room." }
         },
         {
           "id": "special-lighting",
           "title": "Special Lighting & Feature Installations",
           "text": "Statement and feature lighting installed with care, from decorative fittings to custom lighting details.",
           "bullets": ["Decorative & feature lighting", "Custom lighting installations", "Careful, clean finishing"],
-          "image": { "src": "/images/elec-feature.jpg", "alt": "Feature lighting installation", "ratio": "4:3", "brief": "Warm feature lighting in a living space." }
+          "image": { "src": "/images/feature-lighting-interior.jpg", "alt": "Modern dining room with installed feature lighting", "ratio": "4:3", "brief": "Completed warm feature lighting installation in a modern residential interior." }
         },
         {
           "id": "circuit-breakers",
           "title": "Circuit Breaker Repair & Load Balancing",
           "text": "Breakers that keep tripping can signal overload or faults. We repair, replace and balance the load for safe, stable power.",
           "bullets": ["MCB replacement", "Distribution board maintenance", "Load balancing"],
-          "image": { "src": "/images/elec-breakers.jpg", "alt": "Circuit breakers in a distribution board", "ratio": "4:3", "brief": "Close-up of a tidy distribution board." }
+          "image": { "src": "/images/circuit-breaker-maintenance.jpg", "alt": "Electrician maintaining circuit breakers in a distribution board", "ratio": "4:3", "brief": "Technician inspecting circuit breakers and electrical connections in a distribution board." }
         }
       ],
       "processSection": {
@@ -474,7 +474,7 @@
         "headline": "Leaks, blockages and breakdowns, fixed fast.",
         "subheadline": "Reliable plumbing for homes and commercial properties, from urgent repairs to full installations.",
         "bullets": ["Same-day service", "Mon–Sat · 9:00 AM–6:00 PM", "One-visit fixes"],
-        "image": { "src": "/images/plumbing-hero.jpg", "alt": "Plumber repairing a pipe", "ratio": "4:5", "brief": "Plumber in uniform repairing a sink pipe in a clean kitchen." }
+        "image": { "src": "/images/sink-drain-repair.jpg", "alt": "Plumber repairing a sink drain connection", "ratio": "4:5", "brief": "Technician repairing sink drainage in a clean residential setting." }
       },
       "intro": {
         "title": "Plumbing done right, the first time.",
@@ -486,42 +486,42 @@
           "title": "Drain Cleaning & Unclogging",
           "text": "Blocked sinks, basins, floor drains or toilets? We clear the blockage and get water flowing again.",
           "bullets": ["Sink, basin & floor drain clearing", "Toilet blockage clearing", "Fast, clean service"],
-          "image": { "src": "/images/plumb-drain.jpg", "alt": "Clearing a blocked drain", "ratio": "4:3", "brief": "Plumber clearing a sink drain." }
+          "image": { "src": "/images/drain-unclogging-machine.jpg", "alt": "Technician clearing a blocked bathroom drain", "ratio": "4:3", "brief": "Technician using professional drain cleaning equipment in a bathroom." }
         },
         {
           "id": "water-heater",
           "title": "Water Heater Repair",
           "text": "No hot water, or a heater that is leaking or slow to heat? We repair or replace it so you are never left in the cold.",
           "bullets": ["Heater repair", "Heater replacement", "Residential and commercial"],
-          "image": { "src": "/images/plumb-heater.jpg", "alt": "Water heater repair", "ratio": "4:3", "brief": "Technician servicing a water heater." }
+          "image": { "src": "/images/water-heater-repair.jpg", "alt": "Technician repairing a wall-mounted water heater", "ratio": "4:3", "brief": "Technician servicing water heater pipework in a residential bathroom." }
         },
         {
           "id": "water-pump",
           "title": "Water Pump Repair & Replacement",
           "text": "Low pressure or a pump that has stopped working? We repair or replace pumps and handle the related plumbing works.",
           "bullets": ["Pump repair", "Pump replacement", "Related plumbing works"],
-          "image": { "src": "/images/plumb-pump.jpg", "alt": "Water pump servicing", "ratio": "4:3", "brief": "Technician working on a water pump." }
+          "image": { "src": "/images/water-pump-inspection.jpg", "alt": "Technician inspecting a residential water pump", "ratio": "4:3", "brief": "Technician checking a water pump and connected pressure system." }
         },
         {
           "id": "leak-repair",
           "title": "Repairing Leaks",
           "text": "We locate the true source of leaks and repair them before they cause damage to walls, ceilings and belongings.",
           "bullets": ["Leak identification", "Pipe, tap & fitting repairs", "Hose and angle-valve replacement"],
-          "image": { "src": "/images/plumb-leak.jpg", "alt": "Repairing a leaking pipe", "ratio": "4:3", "brief": "Close-up of a pipe leak repair." }
+          "image": { "src": "/images/under-sink-pipe-repair.jpg", "alt": "Plumber repairing leaking pipework beneath a sink", "ratio": "4:3", "brief": "Close-up of a technician tightening and repairing under-sink pipework." }
         },
         {
           "id": "tank-cleaning",
           "title": "Water Tank Cleaning",
           "text": "Thorough cleaning and sanitization of water tanks, removing sediment and deposits for cleaner water.",
           "bullets": ["Draining & internal cleaning", "Sediment & dirt removal", "Disinfection / sanitization", "Residential & commercial tanks (subject to site access)"],
-          "image": { "src": "/images/plumb-tank.jpg", "alt": "Water tank cleaning", "ratio": "4:3", "brief": "Technician cleaning an accessible water tank." }
+          "image": { "src": "/images/water-tank-cleaning.jpg", "alt": "Technician cleaning the inside of a water tank", "ratio": "4:3", "brief": "Technician manually cleaning and sanitising an accessible residential water tank." }
         },
         {
           "id": "plumbing-installation",
           "title": "Plumbing Installation Services",
           "text": "Neat, professional installation of plumbing fixtures and fittings for homes, offices and commercial spaces.",
           "bullets": ["WC, wash basin & sink installation", "Taps, mixers & shower fittings", "Kitchen and bathroom connections"],
-          "image": { "src": "/images/plumb-install.jpg", "alt": "Installing a bathroom fixture", "ratio": "4:3", "brief": "Plumber installing a basin tap." }
+          "image": { "src": "/images/tap-repair.jpg", "alt": "Plumber installing and adjusting a basin tap", "ratio": "4:3", "brief": "Technician fitting and testing a modern bathroom basin tap." }
         }
       ],
       "processSection": {
