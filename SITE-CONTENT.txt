@@ -23,9 +23,9 @@ Link 3: Plumbing — https://hannahcare.ae/plumbing-services
 Link 4: Electrical — https://hannahcare.ae/electrical-services
 
 --- Contact information ---
-Phone shown on site: 056 373 4604
-Phone link value: +971563734604
-WhatsApp number: 971563734604
+Phone shown on site: 050 840 9313
+Phone link value: +971508409313
+WhatsApp number: 971508409313
 WhatsApp opening message: Hello Hannah Care, I would like to enquire about {service}.
 Email: [info@hannahcare.example]
 Address: Office 204, AL Wasl Building R146, Al Maktoum Hospital Road, Baniyas Square, Deira, Dubai
